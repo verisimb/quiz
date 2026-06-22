@@ -1,0 +1,8 @@
+.git
+.gitignore
+Dockerfile
+.dockerignore
+.system_generated
+task.md
+implementation_plan.md
+walkthrough.md

@@ -1,0 +1,1958 @@
+[
+  {
+    "nama_mahasiswa": "Made Randika",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Manajer ingin mengetahui \"Apa yang sebaiknya dilakukan\" untuk mengoptimalkan strategi bisnis di masa depan. Tingkat kecerdasan (Intelligence Form) manakah yang sedang dibutuhkan?",
+        "pilihan": {
+          "A": "Descriptive",
+          "B": "Diagnostic",
+          "C": "Predictive",
+          "D": "Prescriptive"
+        },
+        "jawaban_benar": "D",
+        "penjelasan": "Analisis Prescriptive berkaitan dengan tindakan atau langkah apa yang sebaiknya dilakukan berdasarkan data yang ada."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Salah satu karakteristik utama Data Warehouse adalah \"Non-volatile\". Apa yang dimaksud dengan istilah tersebut?",
+        "pilihan": {
+          "A": "Data diatur berdasarkan subjek utama bisnis seperti pelanggan atau produk.",
+          "B": "Data dapat diintegrasikan dari berbagai sumber yang berbeda menjadi format konsisten.",
+          "C": "Data disimpan dalam rentang waktu yang lama (historis) hingga 5-10 tahun.",
+          "D": "Data tidak diperbarui secara rutin melainkan di-refresh dari sumber, di mana data baru ditambahkan sebagai catatan baru."
+        },
+        "jawaban_benar": "D",
+        "penjelasan": "Karakteristik Non-volatile berarti data dalam Data Warehouse tidak diubah atau dihapus secara reguler seperti pada database operasional; pembaruan biasanya diperlakukan sebagai penambahan data baru."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Jika Anda ingin meningkatkan akurasi dan ketangguhan (robustness) sebuah model dengan cara menggabungkan hasil dari beberapa model sekaligus, metode apa yang Anda gunakan?",
+        "pilihan": {
+          "A": "Transfer Learning",
+          "B": "Self-Supervised Learning",
+          "C": "Ensemble Learning",
+          "D": "Semi-Supervised Learning"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Ensemble Learning adalah teknik yang menggabungkan beberapa model (seperti bagging, boosting, stacking) untuk mencapai akurasi yang lebih tinggi daripada model tunggal."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Key Performance Indicators (KPI) dikatakan bersifat multidimensi. Apa yang dimaksud dengan dimensi \"Benchmark\" dalam KPI?",
+        "pilihan": {
+          "A": "Rentang waktu penyelesaian target.",
+          "B": "Perbandingan kinerja saat ini terhadap baseline atau kinerja sebelumnya.",
+          "C": "Kode warna untuk menunjukkan status capaian kinerja.",
+          "D": "Penyelarasan KPI dengan strategi besar organisasi."
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Dimensi Benchmark dalam KPI berfungsi sebagai pembanding terhadap baseline atau performa yang telah dicapai sebelumnya untuk melihat progres."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Manakah dari tugas berikut yang termasuk ke dalam kategori \"Data Reduction\" dalam tahap Data Preparation?",
+        "pilihan": {
+          "A": "Mengisi nilai yang hilang (missing values).",
+          "B": "Melakukan normalisasi data agar skalanya seragam.",
+          "C": "Dimensionality reduction untuk mengurangi jumlah variabel yang dianalisis tanpa menghilangkan informasi penting.",
+          "D": "Mengintegrasikan beberapa database menjadi satu file tunggal."
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Data Reduction bertujuan untuk mengurangi kompleksitas data melalui teknik seperti dimensionality reduction atau kompresi data agar proses analisis lebih efisien."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "I Made Gian Maharta Putra",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Mengapa data sering disebut sebagai \"New Oil\" dalam konteks Business Intelligence modern?",
+        "pilihan": {
+          "A": "Karena data mudah ditemukan dan tidak memerlukan pengolahan.",
+          "B": "Karena data merupakan sumber daya yang akan habis jika terus digunakan.",
+          "C": "Karena data mentah perlu diolah (refining) menjadi informasi dan pengetahuan agar memiliki nilai bagi organisasi.",
+          "D": "Karena data hanya digunakan sebagai bahan bakar untuk mesin operasional (TPS)."
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Seperti minyak mentah, data perlu melalui proses transformasi (Data → Informasi → Pengetahuan) agar dapat memberikan nilai strategis bagi pengambilan keputusan organisasi."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Apa prinsip fundamental \"Granularity\" dalam membangun arsitektur Business Intelligence yang efektif?",
+        "pilihan": {
+          "A": "Memastikan semua data memiliki format visual yang sama.",
+          "B": "Menjaga kesederhanaan tampilan dashboard agar mudah dipahami.",
+          "C": "Menentukan tingkat kedetailan data yang disimpan (semakin detail, semakin tinggi granularitasnya).",
+          "D": "Membagi biaya pembangunan BI secara merata di setiap departemen."
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Granularity adalah salah satu prinsip fundamental dalam membangun arsitektur BI yang berkaitan dengan tingkat kerincian atau kedetailan data yang tersedia untuk dianalisis."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Apa kegunaan utama dari Transfer Learning dalam pengembangan kecerdasan buatan?",
+        "pilihan": {
+          "A": "Melatih model dari awal menggunakan data yang sangat besar.",
+          "B": "Menggunakan kembali model yang sudah dilatih sebelumnya (pre-trained) untuk mengurangi biaya dan waktu pelatihan.",
+          "C": "Mengganti banyak model kecil menjadi satu model besar yang sangat kuat.",
+          "D": "Menjaga data tetap berada di perangkat lokal untuk alasan privasi."
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Transfer Learning berfokus pada penggunaan kembali model pre-trained (seperti ResNet atau BERT) yang dapat di-fine-tuning, sehingga mengurangi kebutuhan data dan biaya pelatihan."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Dimensi KPI \"Time Frame\" (Kerangka Waktu) sangat penting karena...",
+        "pilihan": {
+          "A": "Membantu menentukan siapa yang bertanggung jawab atas sebuah data.",
+          "B": "Menentukan kode warna (merah/kuning/hijau) pada dashboard.",
+          "C": "Menetapkan jangka waktu penyelesaian yang bisa diturunkan menjadi unit waktu yang lebih kecil.",
+          "D": "Membandingkan kinerja saat ini dengan kinerja perusahaan pesaing."
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Dimensi Time Frame memastikan adanya jangka waktu penyelesaian tugas, yang dapat dipersempit (misalnya dari tahunan ke bulanan) untuk pemantauan yang lebih baik."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "In data preparation stage, what is done during the \"Data Cleaning\" process?",
+        "pilihan": {
+          "A": "Mengurangi jumlah variabel untuk mempercepat proses komputasi.",
+          "B": "Mengisi nilai yang hilang (missing values), menghaluskan data yang berisik (noisy), dan menangani inkonsistensi.",
+          "C": "Menggabungkan data dari berbagai sumber seperti spreadsheet dan database SQL.",
+          "D": "Melakukan normalisasi dan pembuatan hierarki konsep pada data."
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Data Cleaning mencakup tugas-tugas seperti mengisi missing values, menangani noisy data, serta mengidentifikasi atau menghapus outlier dan memperbaiki inkonsistensi data."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Mirel Geralyn Simanjorang",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Sebuah perusahaan minimart memiliki data penjualan harian yang sangat besar. Manajer ingin mengetahui mengapa penjualan produk tertentu turun drastis pada bulan lalu. Jenis intelligence form yang paling tepat digunakan adalah…",
+        "pilihan": {
+          "A": "Descriptive",
+          "B": "Diagnostic",
+          "C": "Predictive",
+          "D": "Prescriptive"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Mengidentifikasi alasan atau penyebab di balik suatu tren atau kejadian historis (seperti penurunan penjualan) merupakan ranah analisis Diagnostic."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Dalam arsitektur BI, komponen yang bertugas mengambil data dari berbagai sumber, membersihkan, dan mengintegrasikannya sebelum masuk ke Data Warehouse adalah...",
+        "pilihan": {
+          "A": "OLAP Engine",
+          "B": "Visualization Layer",
+          "C": "ETL (Extract, Transform, Load)",
+          "D": "Data Mining"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "ETL adalah proses mengekstrak data dari berbagai sumber operasional, mentransformasikannya (termasuk pembersihan data), dan memuatnya ke dalam gudang data."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Manakah pernyataan yang paling tepat membedakan EDA dan Data Preparation?",
+        "pilihan": {
+          "A": "EDA dilakukan setelah modeling, Data Preparation sebelum pengumpulan data",
+          "B": "EDA bertujuan memahami data dan pola, Data Preparation bertujuan membersihkan dan mentransformasi data",
+          "C": "EDA menghasilkan dataset bersih, Data Preparation menghasilkan insight",
+          "D": "EDA dan Data Preparation adalah istilah yang sama"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "EDA (Exploratory Data Analysis) fokus pada pemahaman awal dan penggalian karakteristik data, sedangkan Data Preparation fokus pada manipulasi data teknis agar siap digunakan oleh model."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Sebuah tim membuat model prediksi churn menggunakan Decision Tree, SVM, dan Neural Network secara terpisah. Kemudian mereka menggabungkan prediksi dari ketiga model tersebut untuk mendapatkan hasil akhir. Pendekatan ini disebut...",
+        "pilihan": {
+          "A": "Transfer Learning",
+          "B": "Federated Learning",
+          "C": "Ensemble Learning",
+          "D": "Self-Supervised Learning"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Metode yang menggabungkan prediksi dari beberapa arsitektur atau algoritma model yang berbeda untuk menghasilkan keputusan akhir yang lebih akurat disebut Ensemble Learning."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Dalam sebuah dashboard, terdapat empat grafik yang saling terkait (pendapatan, biaya, laba, dan margin). Keempat grafik tersebut diletakkan berdekatan dalam satu area dan diberi border yang sama. Pengguna secara otomatis menganggap keempat grafik tersebut sebagai satu kelompok yang saling berhubungan. Prinsip Gestalt yang bekerja adalah...",
+        "pilihan": {
+          "A": "Similarity",
+          "B": "Closure",
+          "C": "Proximity",
+          "D": "Continuity"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Prinsip Proximity (Kedekatan) menyatakan bahwa elemen-elemen yang diletakkan saling berdekatan cenderung dipersepsikan oleh mata sebagai satu kelompok terpadu."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Ni Putu Yuantia Andini",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Dalam arsitektur BI, kenapa proses ETL penting sebelum data masuk ke data warehouse?",
+        "pilihan": {
+          "A": "Agar data bisa langsung divisualisasikan tanpa analisis",
+          "B": "Agar data dari berbagai sumber bisa dibersihkan, disatukan, dan dibuat konsisten",
+          "C": "Agar data transaksi harian bisa dihapus otomatis",
+          "D": "Agar dashboard tidak perlu terhubung ke database"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "ETL penting karena data biasanya berasal dari banyak sumber. Data harus diekstrak, dibersihkan, diubah formatnya, lalu dimasukkan ke penyimpanan pusat agar siap dianalisis."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Jika minimarket ingin melihat produk mana yang paling sering dibeli bersama oleh pelanggan, teknik BI yang paling tepat digunakan adalah?",
+        "pilihan": {
+          "A": "Classification",
+          "B": "Association",
+          "C": "Regression",
+          "D": "Data cleaning"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Association digunakan untuk menemukan hubungan antar item. Contohnya pelanggan yang membeli roti sering juga membeli susu."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Kenapa data warehouse lebih cocok untuk analisis strategis dibanding operational database?",
+        "pilihan": {
+          "A": "Secara umum data warehouse hanya menyimpan data terbaru",
+          "B": "Karena data warehouse berisi data historis dan sudah terintegrasi",
+          "C": "Karena data warehouse digunakan untuk input transaksi harian",
+          "D": "Karena data warehouse tidak membutuhkan proses analisis"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Data warehouse menyimpan data historis dari berbagai sumber. Karena itu, data warehouse cocok untuk melihat tren, pola, dan mendukung keputusan jangka panjang."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Dalam Business Performance Management, KPI digunakan untuk apa?",
+        "pilihan": {
+          "A": "Menentukan warna tampilan dashboard",
+          "B": "Mengukur apakah tujuan organisasi sudah tercapai",
+          "C": "Menghapus data yang tidak relevan",
+          "D": "Menggantikan semua proses pengambilan keputusan"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "KPI adalah indikator terukur. KPI membantu organisasi melihat apakah performanya sudah sesuai target atau belum."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Perbedaan paling tepat antara BI dan Data Science adalah?",
+        "pilihan": {
+          "A": "BI fokus pada keputusan, Data Science fokus pada metode dan model",
+          "B": "BI hanya menggunakan AI, Data Science hanya menggunakan dashboard",
+          "C": "BI tidak membutuhkan data, Data Science membutuhkan data",
+          "D": "BI hanya untuk perusahaan besar, Data Science hanya untuk akademik"
+        },
+        "jawaban_benar": "A",
+        "penjelasan": "BI lebih fokus pada pemanfaatan data untuk mendukung keputusan. Data Science lebih fokus pada pembuatan model, prediksi, dan metode analisis data."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Ni Luh Putu Vina Widiantari",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Sebuah perusahaan ingin menggabungkan data penjualan dari beberapa cabang ke dalam satu sistem untuk keperluan analisis. Sistem yang digunakan untuk menyimpan data terintegrasi tersebut adalah...",
+        "pilihan": {
+          "A": "Database Transaksi",
+          "B": "Data Warehouse",
+          "C": "Data Mining",
+          "D": "Dashboard",
+          "E": "KPI"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Data Warehouse adalah tempat penyimpanan data yang berasal dari berbagai sumber and telah diintegrasikan untuk kebutuhan analisis serta pengambilan keputusan."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Sebuah rumah sakit menemukan bahwa proses pendaftaran pasien membutuhkan waktu rata-rata 25 menit. Setelah dilakukan analisis BPM, diketahui bahwa pasien harus mengisi formulir yang sama di dua bagian berbeda. Rumah sakit kemudian menghapus salah satu formulir tersebut. Tahap BPM yang paling tepat menggambarkan tindakan rumah sakit tersebut adalah...",
+        "pilihan": {
+          "A": "Process Monitoring",
+          "B": "Process Modeling",
+          "C": "Process Optimization",
+          "D": "Process Execution",
+          "E": "Process Discovery"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Process Optimization adalah tahap memperbaiki proses bisnis agar lebih efisien. Pada kasus ini, rumah sakit menghapus formulir yang sama untuk mengurangi waktu pendaftaran."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Seorang analis menemukan bahwa rata-rata penjualan suatu produk sangat tinggi. Setelah diperiksa, ternyata terdapat beberapa transaksi dalam jumlah yang jauh lebih besar dibandingkan transaksi lainnya. Langkah EDA yang paling tepat dilakukan adalah...",
+        "pilihan": {
+          "A": "Menghapus seluruh data penjualan",
+          "B": "Mengidentifikasi apakah terdapat outlier pada data",
+          "C": "Langsung membangun model AI",
+          "D": "Menambah jumlah data secara acak",
+          "E": "Mengubah data menjadi KPI"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Transaksi yang jumlahnya jauh lebih besar dibandingkan transaksi lainnya disebut outlier. Dalam EDA, langkah pertama adalah mengidentifikasi outlier sebelum analisis lanjutan."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "KPI \"Persentase Barang Fast Moving yang Kehabisan Stok\" termasuk KPI yang berfokus pada...",
+        "pilihan": {
+          "A": "Inventory Performance",
+          "B": "Customer Demographics",
+          "C": "Cybersecurity",
+          "D": "Human Resource",
+          "E": "Data Replication"
+        },
+        "jawaban_benar": "A",
+        "penjelasan": "KPI \"Persentase Barang Fast Moving yang Kehabisan Stok\" digunakan untuk mengukur seberapa baik perusahaan mengelola persediaan barang yang sering terjual."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Sebuah perusahaan ingin memprediksi jumlah penjualan bulan depan berdasarkan data historis penjualan. Pendekatan AI yang paling sesuai adalah...",
+        "pilihan": {
+          "A": "Supervised Learning (Regression)",
+          "B": "Unsupervised Learning (Clustering)",
+          "C": "Reinforcement Learning",
+          "D": "Association Rule Mining",
+          "E": "Ensemble Learning"
+        },
+        "jawaban_benar": "A",
+        "penjelasan": "Supervised Learning (Regression) digunakan untuk memprediksi nilai numerik berdasarkan data historis yang sudah ada."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Ni Putu Ayu Kusuma Dewi",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Apa perbedaan mendasar antara Business Intelligence (BI) dan Data Science dalam sebuah ekosistem data?",
+        "pilihan": {
+          "A": "BI menghasilkan model, sedangkan Data Science mengoperasionalkannya",
+          "B": "BI berorientasi pada metode, sedangkan Data Science berorientasi pada keputusan.",
+          "C": "BI mengoperasionalkan model dan berorientasi keputusan, sedangkan Data Science menghasilkan model dan berorientasi metode.",
+          "D": "BI dan Data Science adalah sistem yang saling menggantikan sehingga tidak bisa berjalan bersamaan."
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "BI dan Data Science saling melengkapi. BI bertugas mengoperasionalkan model dengan orientasi keputusan, sementara Data Science fokus pada pengembangan metode dan model."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Dalam pemodelan Data Warehouse, apa perbedaan utama antara Fact Table dan Dimension Table?",
+        "pilihan": {
+          "A": "Fact Table berisi deskripsi atribut, sedangkan Dimension Table berisi data transaksi.",
+          "B": "Fact Table berisi metrik kuantitatif (seperti jumlah penjualan), sedangkan Dimension Table berisi atribut deskriptif yang memberikan konteks pada fakta tersebut.",
+          "C": "Fact Table digunakan untuk OLTP, sedangkan Dimension Table digunakan untuk OLAP.",
+          "D": "Fact Table bersifat denormalisasi, sedangkan Dimension Table selalu ternormalisasi penuh."
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Fact Table menyimpan metrik/fakta (seperti revenue atau quantity), sementara Dimension Table menyimpan informasi kontekstual (seperti detail produk, lokasi, atau waktu) yang menjelaskan fakta tersebut."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Apa keunggulan utama dari Federated Learning dibandingkan dengan pendekatan AI tradisional?",
+        "pilihan": {
+          "A": "Menggunakan model yang sudah dilatih sebelumnya untuk menghemat biaya.",
+          "B": "Menggabungkan beberapa model untuk meningkatkan akurasi (Ensemble).",
+          "C": "Melatih model di perangkat terdesentralisasi sehingga data tetap lokal dan menjaga privasi pengguna.",
+          "D": "Memberikan hadiah (reward) kepada agen yang berhasil menyelesaikan tugas di lingkungan tertentu."
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Federated Learning fokus pada privasi (privacy-preserving) karena proses training dilakukan secara lokal di perangkat masing-masing tanpa harus mengirimkan data mentah ke server pusat."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Balanced Scorecard (BSC) tidak hanya fokus pada perspektif keuangan. Jika sebuah sekolah ingin meningkatkan \"kemampuan TIK guru dan staf\", maka tindakan ini masuk ke dalam perspektif mana?",
+        "pilihan": {
+          "A": "Financial Perspective",
+          "B": "Customer Perspective",
+          "C": "Internal Business Process Perspective",
+          "D": "Learning and Growth Perspective"
+        },
+        "jawaban_benar": "D",
+        "penjelasan": "Perspektif Learning and Growth berkaitan dengan kapasitas organisasi untuk berkembang melalui SDM, teknologi, dan budaya, termasuk kompetensi dan pelatihan karyawan."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Mengapa prinsip \"Garbage In, Garbage Out\" sangat relevan dalam tahap Data Preparation?",
+        "pilihan": {
+          "A": "Karena data yang sudah bersih akan dibuang jika tidak digunakan segera.",
+          "B": "Karena jika input data mentah tidak berkualitas (salah/tidak lengkap), maka hasil analisis atau keputusan bisnis yang dihasilkan juga akan salah.",
+          "C": "Karena proses EDA bertujuan untuk menghapus seluruh data yang dianggap sampah.",
+          "D": "Karena data historis dalam Data Warehouse bersifat permanen dan tidak bisa dibersihkan."
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Kualitas keputusan bisnis sangat bergantung pada kualitas data. Data mentah yang tidak konsisten atau tidak lengkap akan menghasilkan output analisis yang menyesatkan."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Amelia Rizky Yuniar",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Sebuah perusahaan menggunakan Business Intelligence untuk menganalisis pola penjualan tahunan. Data yang digunakan berasal dari berbagai cabang dan disimpan selama 10 tahun. Karakteristik data warehouse yang paling penting agar analisis tersebut dapat dilakukan adalah…",
+        "pilihan": {
+          "A": "Transaction-oriented",
+          "B": "Time-variant",
+          "C": "Real-time processing",
+          "D": "Operational processing"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Karakteristik Time-variant menunjukkan bahwa data di dalam Data Warehouse terikat dengan interval waktu tertentu dan menyimpan jejak historis jangka panjang untuk keperluan analisis tren."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Pada dashboard BI, seorang analis memilih menggunakan bar chart dibanding pie chart untuk membandingkan performa 15 produk. Keputusan tersebut paling sesuai dengan prinsip perceptual theory karena…",
+        "pilihan": {
+          "A": "Bar chart lebih menarik secara visual",
+          "B": "Pie chart tidak dapat digunakan untuk data bisnis",
+          "C": "Panjang lebih mudah diinterpretasikan dibanding sudut",
+          "D": "Pie chart hanya cocok untuk dashboard operasional"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Otak manusia jauh lebih akurat dan cepat membandingkan perbedaan panjang linear (bar) daripada membandingkan derajat sudut atau luas juring (pie), terutama untuk kategori yang berjumlah banyak."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Dalam proses EDA, seorang analis menemukan beberapa titik ekstrem pada boxplot. Namun setelah dianalisis lebih lanjut, titik tersebut ternyata berasal dari transaksi pelanggan VIP dengan nilai pembelian sangat tinggi. Tindakan yang paling tepat adalah…",
+        "pilihan": {
+          "A": "Menghapus seluruh outlier agar distribusi normal",
+          "B": "Menghapus data pelanggan VIP dari dataset",
+          "C": "Menyimpan outlier karena masih merepresentasikan kondisi bisnis nyata",
+          "D": "Mengganti semua nilai outlier dengan rata-rata"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Outlier yang valid dan bermakna secara operasional bisnis (seperti transaksi riil akun VIP) tidak boleh dihapus secara sembarangan karena menyimpan insight bernilai dari fenomena nyata perusahaan."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Sebuah organisasi mengalami kegagalan implementasi BI meskipun sistem berjalan dengan baik secara teknis. Karyawan tetap menggunakan cara lama karena merasa dashboard terlalu kompleks dan sulit dipahami. Permasalahan tersebut termasuk…",
+        "pilihan": {
+          "A": "Data inconsistency",
+          "B": "User resistance",
+          "C": "ETL failure",
+          "D": "Data redundancy"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Penolakan pengguna (User resistance) terjadi ketika aspek adopsi manusia terhambat, baik karena kurangnya pelatihan, kultur kerja lama, atau antarmuka sistem baru yang terlalu membebani kognitif."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Sebuah model AI dilatih menggunakan banyak model berbeda lalu hasil prediksinya digabungkan agar lebih stabil dan akurat. Namun proses pelatihannya tetap menggunakan data berlabel. Pendekatan tersebut termasuk…",
+        "pilihan": {
+          "A": "Federated Learning",
+          "B": "Reinforcement Learning",
+          "C": "Self-Supervised Learning",
+          "D": "Ensemble Learning"
+        },
+        "jawaban_benar": "D",
+        "penjelasan": "Pendekatan menggabungkan kekuatan prediksi dari sub-model jamak untuk menghasilkan kesimpulan tunggal yang tangguh dan meminimalkan bias adalah konsep dasar Ensemble Learning."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "JESICHA DAMAYANTI MANURUNG",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Saat melakukan EDA, seorang analis menemukan pola yang menunjukkan pelanggan yang sering menggunakan diskon cenderung melakukan pembelian lebih banyak. Kesimpulan terbaik adalah...",
+        "pilihan": {
+          "A": "Diskon pasti menjadi penyebab meningkatnya pembelian",
+          "B": "Hubungan tersebut perlu dianalisis lebih lanjut sebelum dianggap sebagai hubungan sebab-akibat",
+          "C": "Data sudah cukup untuk membuat model prediksi final",
+          "D": "Pola tersebut dapat langsung digunakan sebagai strategi bisnis"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Korelasi tidak selalu berarti kausalitas (sebab-akibat). Hubungan yang ditemukan saat EDA memerlukan pengujian statistik lebih lanjut untuk memastikan kebenarannya secara kausal."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Jika sebuah KPI berhasil mendorong peningkatan produktivitas tetapi justru menurunkan kepuasan pelanggan, maka kemungkinan besar...",
+        "pilihan": {
+          "A": "KPI tersebut berhasil sepenuhnya",
+          "B": "KPI terlalu sulit diukur",
+          "C": "Terdapat ketidakseimbangan antara indikator kinerja dan tujuan bisnis yang lebih luas",
+          "D": "Balanced Scorecard tidak diperlukan"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "KPI yang terlalu agresif mengejar satu matriks operasional tanpa menyeimbangkan dengan indikator kepuasan akan mencederai tujuan jangka panjang ekosistem bisnis."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Salah satu alasan utama perusahaan mulai mengintegrasikan AI ke dalam BI adalah...",
+        "pilihan": {
+          "A": "Mengurangi kebutuhan penyimpanan data",
+          "B": "Menghasilkan insight prediktif yang sulit ditemukan melalui analisis tradisional",
+          "C": "Menghilangkan kebutuhan Data Warehouse",
+          "D": "Menggantikan seluruh manajemen perusahaan"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Integrasi AI melengkapi BI tradisional dengan kemampuan tingkat lanjut seperti peramalan otomatis, pengenalan anomali, dan deteksi pola prediktif yang tersembunyi."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Dalam implementasi BI, nilai terbesar dari Data Warehouse sebenarnya terletak pada kemampuannya untuk...",
+        "pilihan": {
+          "A": "Menyimpan data dalam jumlah besar",
+          "B": "Mengurangi kebutuhan database operasional",
+          "C": "Menyediakan sumber data yang konsisten untuk analisis",
+          "D": "Menghilangkan seluruh data yang redundan"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Kekuatan utama gudang data (Data Warehouse) adalah menghadirkan 'Single Source of Truth', yakni satu muara data yang terintegrasi dan konsisten untuk kebutuhan pelaporan strategis."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Jika Anda hanya dapat memperbaiki satu aspek berikut untuk meningkatkan kualitas BI, mana yang kemungkinan memberikan dampak paling besar?",
+        "pilihan": {
+          "A": "Menambah jumlah dashboard",
+          "B": "Meningkatkan kualitas data yang digunakan dalam analisis",
+          "C": "Menambah jumlah laporan harian",
+          "D": "Menambah kapasitas penyimpanan server"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Sesuai prinsip GIGO (Garbage In Garbage Out), perbaikan fondasi pada kualitas integritas data dasar akan memberikan dampak pelipatgandaan kualitas yang paling signifikan bagi akurasi keputusan."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Jingga Venatha Lisdabrani",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Seorang manajer melihat penjualan produknya menurun dalam tiga bulan terakhir. Ia ingin mengetahui penyebab penurunan tersebut, misalnya apakah karena harga, kualitas layanan, atau perubahan perilaku pelanggan. Bentuk kecerdasan BI yang paling sesuai untuk kasus ini adalah…",
+        "pilihan": {
+          "A": "Descriptive Intelligence",
+          "B": "Diagnostic Intelligence",
+          "C": "Predictive Intelligence",
+          "D": "Prescriptive Intelligence"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Diagnostic Intelligence digunakan untuk menjawab pertanyaan “mengapa hal itu terjadi”. Dalam kasus ini, manajer tidak hanya ingin mengetahui bahwa penjualan menurun, tetapi ingin mencari penyebab penurunan tersebut."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Dalam proses ETL, perusahaan memiliki data pelanggan dari dua sistem dengan format tanggal dan kode pelanggan yang berbeda. Tahap yang digunakan untuk membersihkan dan menyeragamkan format data tersebut adalah...",
+        "pilihan": {
+          "A": "Extract",
+          "B": "Transform",
+          "C": "Load",
+          "D": "Visualization"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Transform adalah tahap mengubah, membersihkan, dan menyeragamkan data agar data dari berbagai sumber memiliki format yang konsisten sebelum dimasukkan ke data warehouse."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Sebuah perusahaan ingin memantau jumlah pesanan, status pengiriman, dan stok barang secara real-time. Jenis dashboard yang paling sesuai digunakan adalah...",
+        "pilihan": {
+          "A": "Strategic Dashboard",
+          "B": "Analytical Dashboard",
+          "C": "Operational Dashboard",
+          "D": "Informational Dashboard"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Operational Dashboard digunakan untuk memantau aktivitas operasional secara real-time atau near real-time. Dashboard ini cocok untuk melihat kondisi terkini, seperti status pesanan, pengiriman, dan stok barang."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Seorang peneliti ingin membuat model klasifikasi teks, tetapi jumlah data latihnya terbatas. Ia kemudian menggunakan model BERT yang sudah dilatih sebelumnya dan menyesuaikannya dengan dataset baru. Paradigma pembelajaran AI yang digunakan adalah...",
+        "pilihan": {
+          "A": "Reinforcement Learning",
+          "B": "Transfer Learning",
+          "C": "Unsupervised Learning",
+          "D": "Federated Learning"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Transfer Learning menggunakan model yang sudah dilatih sebelumnya (pre-trained model), lalu disesuaikan untuk tugas baru. Pendekatan ini membantu menghemat data, waktu, dan biaya pelatihan."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Dalam pembuatan dashboard, seorang desainer menempatkan KPI utama di bagian atas, mengatur visual berdasarkan urutan perhatian pengguna, dan mengelompokkan metrik yang saling berkaitan. Pendekatan ini termasuk...",
+        "pilihan": {
+          "A": "Storytelling",
+          "B": "Storyframing",
+          "C": "Data Cleaning",
+          "D": "Data Mining"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Storyframing berfokus pada struktur tampilan dashboard, seperti layout, visual hierarchy, dan alur perhatian pengguna. Storytelling lebih fokus pada narasi atau penjelasan insight setelah analisis dilakukan."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Luh Putu Amaragita Tiarani Wicaya",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Seorang analis membuat dashboard menggunakan 12 warna berbeda, 7 jenis grafik dalam satu halaman, serta banyak label yang saling bertumpuk. Pengguna mengeluh sulit memahami informasi yang ditampilkan. Menurut Cognitive Load Theory, masalah utama dashboard tersebut adalah...",
+        "pilihan": {
+          "A": "Germane Load terlalu rendah",
+          "B": "Intrinsic Load terlalu tinggi",
+          "C": "Extraneous Load terlalu tinggi",
+          "D": "Schema Theory tidak digunakan"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Menurut Cognitive Load Theory, extraneous load muncul akibat desain yang kurang baik dan tidak mendukung pemahaman pengguna. Penggunaan terlalu banyak warna, jenis grafik, dan label yang bertumpuk membuat dashboard menjadi sulit dibaca sehingga membebani pengguna dalam memahami informasi. Oleh karena itu, masalah utama pada kasus tersebut adalah tingginya extraneous load."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Sebuah perusahaan retail menemukan beberapa catatan penjualan yang nilainya jauh lebih tinggi dibanding mayoritas transaksi. Untuk memastikan apakah data tersebut merupakan outlier, visualisasi yang paling tepat digunakan adalah...",
+        "pilihan": {
+          "A": "Line Chart",
+          "B": "Pie Chart",
+          "C": "Boxplot",
+          "D": "Heatmap"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Boxplot digunakan untuk menampilkan median, kuartil, serta outlier dalam suatu dataset. Nilai yang berada di luar whisker akan terlihat sebagai titik terpisah sehingga memudahkan identifikasi data yang menyimpang dari mayoritas data lainnya."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Manajemen ingin membandingkan tren penjualan produk selama 7 tahun terakhir untuk menentukan strategi bisnis jangka panjang. Mengapa data warehouse lebih cocok digunakan dibanding database operasional?",
+        "pilihan": {
+          "A": "Data warehouse lebih cepat melakukan transaksi penjualan",
+          "B": "Data warehouse menyimpan data historis dalam jangka panjang",
+          "C": "Data warehouse dapat digunakan untuk input data harian",
+          "D": "Data warehouse hanya menyimpan data pelanggan"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Data warehouse dirancang untuk kebutuhan analisis and pengambilan keputusan strategis. Salah satu karakteristiknya adalah time-variant, yaitu mampu menyimpan data historis dalam jangka waktu yang panjang. Karena manajemen ingin menganalisis tren selama 7 tahun, data warehouse lebih sesuai dibanding database operasional yang berfokus pada data terkini."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Sebuah perusahaan selama ini menentukan jumlah stok barang hanya berdasarkan pengalaman manajer gudang. Setelah beberapa kali mengalami kelebihan dan kekurangan stok, perusahaan memutuskan menggunakan BI. Tujuan utama penggunaan BI pada kasus tersebut adalah...",
+        "pilihan": {
+          "A": "Menggantikan seluruh keputusan manusia dengan AI",
+          "B": "Menyimpan lebih banyak data transaksi",
+          "C": "Mempercepat proses input transaksi",
+          "D": "Mendukung pengambilan keputusan berdasarkan fakta dan data"
+        },
+        "jawaban_benar": "D",
+        "penjelasan": "Salah satu tujuan utama Business Intelligence adalah membantu organisasi mengambil keputusan berdasarkan data dan informasi yang tersedia, bukan hanya berdasarkan intuisi atau pengalaman. Dengan BI, perusahaan dapat menganalisis pola penjualan dan kebutuhan stok secara lebih objektif sehingga risiko kelebihan atau kekurangan stok dapat dikurangi."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Menurut Visual Encoding Hierarchy, visualisasi yang lebih akurat untuk membandingkan nilai antar kategori adalah...",
+        "pilihan": {
+          "A": "Pie Chart karena menggunakan sudut (angle)",
+          "B": "Scatter Plot karena menggunakan titik",
+          "C": "Bar Chart karena menggunakan panjang (length)",
+          "D": "Heatmap karena menggunakan warna"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Berdasarkan Visual Encoding Hierarchy, manusia lebih akurat dalam membandingkan panjang (length) dibandingkan sudut (angle), luas area, atau intensitas warna. Oleh karena itu, bar chart lebih efektif untuk membandingkan nilai antar kategori dibandingkan pie chart atau visualisasi lainnya. Hal ini membuat bar chart menjadi salah satu visualisasi yang paling direkomendasikan dalam dashboard BI."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "I Gusti Nyoman Adiwiguna Dharma Sanjaya",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Manakah bentuk intelligence yang memberikan rekomendasi tindakan terbaik yang sebaiknya dilakukan organisasi?",
+        "pilihan": {
+          "A": "Descriptive Intelligence",
+          "B": "Diagnostic Intelligence",
+          "C": "Predictive Intelligence",
+          "D": "Prescriptive Intelligence"
+        },
+        "jawaban_benar": "D",
+        "penjelasan": "Prescriptive Intelligence tidak hanya memprediksi kemungkinan yang akan terjadi, tetapi juga memberikan rekomendasi tindakan terbaik yang dapat diambil organisasi berdasarkan hasil analisis data."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Sebuah perusahaan ingin menganalisis pola pembelian pelanggan berdasarkan wilayah, produk, dan waktu penjualan selama lima tahun terakhir. Agar analisis dapat dilakukan secara terintegrasi, data dari berbagai divisi disusun berdasarkan subjek bisnis tertentu seperti pelanggan dan produk. Karakteristik Data Warehouse yang mendukung kebutuhan tersebut adalah...",
+        "pilihan": {
+          "A": "Time Variant",
+          "B": "Subject Oriented",
+          "C": "Non-Volatile",
+          "D": "Integrated"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Subject Oriented berarti data dalam Data Warehouse disusun berdasarkan subjek bisnis tertentu, seperti pelanggan, produk, atau penjualan, sehingga memudahkan proses analisis dan pengambilan keputusan."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Metode yang menggabungkan beberapa model untuk meningkatkan akurasi dan robustness disebut...",
+        "pilihan": {
+          "A": "Transfer Learning",
+          "B": "Federated Learning",
+          "C": "Ensemble Learning",
+          "D": "Self-Supervised Learning"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Ensemble Learning bekerja dengan menggabungkan beberapa model untuk menghasilkan performa prediksi yang lebih akurat dan stabil dibandingkan menggunakan satu model saja."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Salah satu manfaat utama Performance Measurement System yang baik adalah...",
+        "pilihan": {
+          "A": "Menghilangkan seluruh risiko organisasi",
+          "B": "Menyelaraskan target strategis dengan rencana operasional",
+          "C": "Mengurangi kebutuhan sumber daya manusia",
+          "D": "Menggantikan fungsi manajemen"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Performance Measurement System membantu organisasi memastikan bahwa aktivitas operasional berjalan sesuai dengan tujuan dan strategi bisnis yang telah ditetapkan."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Menurut Cognitive Load Theory, dashboard yang baik seharusnya...",
+        "pilihan": {
+          "A": "Menampilkan sebanyak mungkin visualisasi dalam satu halaman",
+          "B": "Menggunakan banyak warna agar menarik perhatian",
+          "C": "Mengurangi elemen yang tidak diperlukan agar mudah dipahami",
+          "D": "Menampilkan seluruh data mentah tanpa ringkasan"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Cognitive Load Theory menekankan bahwa dashboard harus sederhana dan fokus pada informasi penting agar pengguna dapat memahami data dengan lebih cepat dan tidak mengalami overload informasi."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Dewa Made Satya Pratama Putra",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Dalam proses ETL, apa yang dimaksud dengan tahap 'Transform'?",
+        "pilihan": {
+          "A": "Mengekstrak data dari berbagai sumber sistem",
+          "B": "Memindahkan data ke dalam target penyimpanan akhir",
+          "C": "Membersihkan, mengonversi, dan mengintegrasikan data sesuai format yang dibutuhkan",
+          "D": "Memvisualisasikan data menjadi grafik dan table"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Tahap Transform melibatkan pembersihan data, konversi format, penggabungan data dari berbagai sumber, dan penyesuaian struktur data sebelum dimuat ke Data Warehouse."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Apa perbedaan utama antara OLAP dan OLTP?",
+        "pilihan": {
+          "A": "OLAP digunakan untuk transaksi harian, OLTP untuk analisis data",
+          "B": "OLAP berfokus pada analisis data multidimensi historis, OLTP pada pemrosesan transaksi operasional real-time",
+          "C": "OLAP hanya dapat digunakan pada database SQL, OLTP pada NoSQL",
+          "D": "OLAP lebih cepat dari OLTP dalam memproses semua jenis query"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "OLAP dirancang untuk analisis data kompleks dan historis secara multidimensi (slice, dice, drill-down), sedangkan OLTP menangani transaksi operasional harian yang cepat."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Jenis visualisasi data mana yang paling tepat untuk menampilkan tren penjualan selama 12 bulan terakhir?",
+        "pilihan": {
+          "A": "Pie Chart (Diagram Lingkaran)",
+          "B": "Bar Chart (Diagram Batang)",
+          "C": "Line Chart (Diagram Garis)",
+          "D": "Scatter Plot (Diagram Pencar)"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Line Chart paling efektif untuk menampilkan tren atau perubahan nilai suatu variabel dari waktu ke waktu karena garis menunjukkan kontinuitas perubahan secara visual."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Apa prinsip utama dalam merancang dashboard BI yang efektif?",
+        "pilihan": {
+          "A": "Menampilkan sebanyak mungkin data dan grafik agar informasi lebih lengkap",
+          "B": "Interpreting relevant information seamlessly",
+          "C": "Menggunakan warna yang beragam agar dashboard terlihat menarik",
+          "D": "Memuat data real-time dari semua sistem tanpa filter"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Dashboard yang efektif menerapkan prinsip \"less is more\" — menampilkan KPI dan informasi yang paling relevan bagi pengambil keputusan dengan tampilan yang bersih dan intuitif."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Apa perbedaan antara dashboard operasional dan dashboard strategis dalam BI?",
+        "pilihan": {
+          "A": "Dashboard operasional menampilkan data real-time untuk pemantauan aktivitas harian, dashboard strategis menampilkan tren jangka panjang untuk pengambilan keputusan tingkat tinggi",
+          "B": "Dashboard operasional hanya digunakan oleh manajer, dashboard strategis oleh staf teknis",
+          "C": "Dashboard operasional dibuat dengan Excel, dashboard strategis dengan Python",
+          "D": "Keduanya identik, hanya berbeda dalam tampilan visual"
+        },
+        "jawaban_benar": "A",
+        "penjelasan": "Dashboard operasional fokus pada monitoring aktivitas sehari-hari (real-time), sedangkan dashboard strategis menyajikan analisis tren jangka panjang untuk mendukung keputusan eksekutif."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Leontius Aldiano Eto",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Apa tujuan utama dari Exploratory Data Analysis (EDA)?",
+        "pilihan": {
+          "A": "Membuat aplikasi bisnis",
+          "B": "Memahami data dan menemukan pola/anomali",
+          "C": "Menghapus seluruh data",
+          "D": "Membuat laporan keuangan"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "EDA bertujuan eksploratif untuk memetakan karakteristik awal, memahami struktur data, serta mengendus adanya pola atau anomali sebelum permodelan lanjutan."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Visualisasi yang digunakan untuk mendeteksi outlier pada data adalah …",
+        "pilihan": {
+          "A": "Histogram",
+          "B": "Line Chart",
+          "C": "Boxplot",
+          "D": "Pie Chart"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Visualisasi Boxplot secara spesifik memetakan sebaran data melalui kuartil, di mana nilai-nilai yang ekstrem (outlier) akan digambarkan terpisah di luar garis jangkauan (whisker)."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Dalam Business Performance Management (BPM), langkah yang dilakukan setelah memonitor performa aktual dibanding target adalah …",
+        "pilihan": {
+          "A": "Menentukan target baru",
+          "B": "Mengumpulkan data pelanggan",
+          "C": "Mengambil tindakan perbaikan",
+          "D": "Membuat dashboard"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Setelah membandingkan performa riil di lapangan dengan target/tujuan pada tahap monitoring, langkah logis penutup siklus adalah mengeksekusi tindakan perbaikan (intervensi) jika terjadi kesenjangan performa."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Perspektif Balanced Scorecard (BSC) yang berfokus pada kepuasan dan loyalitas pelanggan adalah …",
+        "pilihan": {
+          "A": "Financial Perspective",
+          "B": "Customer Perspective",
+          "C": "Internal Business Process Perspective",
+          "D": "Learning and Growth Perspective"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Customer Perspective berfokus penuh pada bagaimana cara organisasi memandang konsumennya, mengukur tingkat kepuasan, retensi, serta loyalitas pasar."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "KPI digunakan untuk …",
+        "pilihan": {
+          "A": "Mendesain database",
+          "B": "Mengukur performa terhadap tujuan organisasi",
+          "C": "Menghapus data duplikat",
+          "D": "Membuat visualisasi warna dashboard"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Key Performance Indicators (KPI) adalah sekumpulan metrik finansial maupun non-finansial terukur yang digunakan untuk melihat sejauh mana performa operasional berhasil mendekati target strategis organisasi."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Ida Bagus Angga Prabaswara",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Metode pembelajaran AI yang menggunakan data berlabel (input-output pairs) dan umum digunakan untuk klasifikasi maupun regresi adalah...",
+        "pilihan": {
+          "A": "Reinforcement Learning",
+          "B": "Transfer Learning",
+          "C": "Supervised Learning",
+          "D": "Unsupervised Learning"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Supervised Learning menggunakan data yang sudah memiliki label (jawaban benar) untuk melatih model. Paradigma ini sering digunakan untuk tugas klasifikasi dan regresi, seperti deteksi spam email dan prediksi harga rumah."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Dalam siklus Business Performance Management (BPM), langkah yang dilakukan setelah mengembangkan rencana untuk mencapai target adalah...",
+        "pilihan": {
+          "A": "Mengambil tindakan perbaikan",
+          "B": "Menentukan target dan tujuan",
+          "C": "Memonitor performa aktual dibandingkan target dan tujuan",
+          "D": "Menentukan KPI"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Siklus BPM terdiri dari menentukan target, mengembangkan rencana, memonitor performa aktual, lalu melakukan tindakan perbaikan. Monitoring diperlukan untuk mengetahui apakah pelaksanaan sudah sesuai dengan target yang ditetapkan."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Karakteristik Data Warehouse yang menunjukkan bahwa data disimpan dalam jangka waktu panjang dan mengandung data historis disebut...",
+        "pilihan": {
+          "A": "Subject Oriented",
+          "B": "Integrated",
+          "C": "Time-Variant",
+          "D": "Non-Volatile"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Time-Variant berarti data warehouse menyimpan data historis selama bertahun-tahun sehingga organisasi dapat menganalisis tren dan perubahan dari waktu ke waktu untuk mendukung pengambilan keputusan strategis."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Dashboard yang memiliki karakteristik interaktif, mendukung drill-down, serta digunakan untuk eksplorasi data disebut...",
+        "pilihan": {
+          "A": "Strategic Dashboard",
+          "B": "Operational Dashboard",
+          "C": "Informational Dashboard",
+          "D": "Analytical Dashboard",
+          "E": "Executive Dashboard"
+        },
+        "jawaban_benar": "D",
+        "penjelasan": "Analytical Dashboard dirancang untuk membantu pengguna melakukan analisis mendalam terhadap data. Dashboard ini biasanya menyediakan fitur interaktif seperti filtering dan drill-down untuk mengeksplorasi informasi secara lebih detail."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Hubungan yang tepat antara BPM, BSC, dan KPI adalah...",
+        "pilihan": {
+          "A": "BPM mendefinisikan proses bisnis, BSC mendefinisikan tujuan strategis, KPI mengukur performa terhadap tujuan tersebut",
+          "B": "BPM mengukur performa, KPI menentukan strategi, BSC menyimpan data",
+          "C": "KPI mengelola proses bisnis, BPM menentukan target, BSC melakukan analisis data",
+          "D": "BSC mengelola data warehouse, KPI menyimpan data historis, BPM membuat dashboard"
+        },
+        "jawaban_benar": "A",
+        "penjelasan": "BPM digunakan untuk mengelola dan mengoptimalkan proses bisnis. BSC menerjemahkan strategi organisasi menjadi tujuan yang terukur, sedangkan KPI digunakan untuk mengukur tingkat pencapaian tujuan tersebut. Ketiganya diintegrasikan dalam BI melalui analisis data dan dashboard."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Ni Komang Ayu Trisna Dewi",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Sebuah perusahaan ingin mengetahui penyebab penurunan penjualan yang terjadi selama tiga bulan terakhir. Bentuk intelligence yang paling sesuai adalah...",
+        "pilihan": {
+          "A": "Descriptive Intelligence",
+          "B": "Diagnostic Intelligence",
+          "C": "Predictive Intelligence",
+          "D": "Prescriptive Intelligence"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Diagnostic Intelligence digunakan untuk mencari penyebab atau alasan mengapa suatu peristiwa terjadi. Dalam kasus ini, perusahaan ingin mengetahui penyebab penurunan penjualan selama tiga bulan terakhir."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Sebuah organisasi telah memiliki Data Warehouse yang berisi data historis dari berbagai departemen. Namun, hasil analisis menunjukkan adanya perbedaan format tanggal, data pelanggan ganda, dan kode produk yang tidak konsisten. Permasalahan tersebut menunjukkan bahwa proses apa dalam arsitektur BI belum berjalan secara optimal?",
+        "pilihan": {
+          "A": "Data Visualization",
+          "B": "OLAP Processing",
+          "C": "ETL",
+          "D": "Dashboarding"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Masalah perbedaan format data dan ketidakkonsistenan data menunjukkan bahwa proses ETL, khususnya tahap transformasi data (Transform), belum berjalan dengan baik sebelum data dimasukkan ke Data Warehouse."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Tujuan utama Exploratory Data Analysis (EDA) adalah...",
+        "pilihan": {
+          "A": "Menyiapkan data agar siap dianalisis",
+          "B": "Memahami struktur data dan mengidentifikasi pola serta anomali",
+          "C": "Menyimpan data historis dalam data warehouse",
+          "D": "Mengintegrasikan data dari berbagai sumber"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "EDA bertujuan mengeksplorasi data untuk memahami karakteristik, menemukan pola, mendeteksi anomali, serta mengidentifikasi masalah pada data sebelum dilakukan analisis lanjutan."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Perbedaan utama antara Storytelling dan Storyframing dalam dashboard BI adalah...",
+        "pilihan": {
+          "A": "Storytelling digunakan sebelum analisis, sedangkan Storyframing setelah analisis",
+          "B": "Storytelling berfokus pada narasi dan pesan, sedangkan Storyframing berfokus pada tata letak dan alur visual",
+          "C": "Storytelling hanya digunakan pada dashboard strategis, sedangkan Storyframing pada dashboard operasional",
+          "D": "Storytelling menggunakan grafik, sedangkan Storyframing tidak menggunakan grafik"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Storytelling digunakan untuk menjelaskan makna dan insight dari data melalui narasi, sedangkan Storyframing mengatur struktur dan tampilan dashboard agar pengguna lebih mudah memahami informasi yang disajikan."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Manakah pernyataan yang paling tepat mengenai perbedaan Artificial Intelligence (AI) dan Machine Learning (ML)?",
+        "pilihan": {
+          "A": "AI merupakan bagian dari Machine Learning",
+          "B": "AI dan Machine Learning adalah istilah yang sama",
+          "C": "Machine Learning merupakan bagian dari AI yang memungkinkan sistem belajar dari data",
+          "D": "Machine Learning tidak memerlukan data"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Artificial Intelligence (AI) adalah bidang yang lebih luas untuk menciptakan sistem cerdas, sedangkan Machine Learning (ML) merupakan cabang AI yang memungkinkan sistem belajar dari data tanpa diprogram secara eksplisit."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Ni Putu Jenie Pratiwi",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Apa perbedaan mendasar antara Business Intelligence (BI) dan Data Science?",
+        "pilihan": {
+          "A": "BI berorientasi pada metode, sedangkan Data Science berorientasi pada keputusan",
+          "B": "BI menghasilkan model baru, sedangkan Data Science mengoperasionalkannya tersebut.",
+          "C": "BI berorientasi pada keputusan, sedangkan Data Science berorientasi pada metode",
+          "D": "BI hanya menggunakan data historis, sedangkan Data Science hanya menggunakan data real-time"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Perbedaan utama dari keduanya terletak pada fokusnya. BI berorientasi pada keputusan untuk mendukung operasional bisnis, sedangkan Data Science berorientasi pada metode atau algoritma untuk menemukan wawasan baru."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Jenis pembelajaran AI di mana data yang digunakan tidak memiliki label (unlabeled) dan model mencari pola sendiri disebut?",
+        "pilihan": {
+          "A": "Reinforcement Learning",
+          "B": "Semi-Supervised Learning",
+          "C": "Supervised Learning",
+          "D": "Unsupervised Learning"
+        },
+        "jawaban_benar": "D",
+        "penjelasan": "Metode unsupervised learning adalah pembelajaran mesin yang menggunakan data tidak berlabel untuk melakukan tugas-tugas seperti clustering (pengelompokan) dan dimensionality reduction (reduksi dimensi). Dalam metode ini, model harus mencari struktur atau pola tersembunyi dalam data tanpa adanya panduan label input-output."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Dalam Balanced Scorecard (BSC), tindakan mengukur kecepatan pelayanan (menghitung rata-rata waktu tunggu antrean toko roti) masuk ke dalam perspektif?",
+        "pilihan": {
+          "A": "Perspektif Keuangan",
+          "B": "Perspektif Pelanggan",
+          "C": "Perspektif Proses Bisnis Internal",
+          "D": "Perspektif Pembelajaran dan Pertumbuhan"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Perspektif Proses Bisnis Internal berfokus pada seberapa efektif dan cepat prosedur kerja di dalam organisasi (seperti kecepatan pelayanan, efisiensi proses produksi) untuk menghasilkan layanan yang baik."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Lapisan dalam arsitektur BI yang bertanggung jawab untuk mengambil, membersihkan, dan mengintegrasikan data dari berbagai sumber ke dalam penyimpanan terpusat adalah?",
+        "pilihan": {
+          "A": "Data Source",
+          "B": "ETL (Extract, Transform, Load)",
+          "C": "Data Warehouse",
+          "D": "OLAP Engine"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "ETL (Extract, Transform, Load) adalah komponen inti arsitektur BI yang berfungsi mengambil data dari berbagai sumber (internal maupun eksternal), membersihkannya agar berkualitas, dan mengintegrasikannya ke dalam Data Warehouse. Proses ini memastikan bahwa data yang akan dianalisis sudah konsisten dan akurat."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Tipe dasbor yang memiliki karakteristik utama berupa penyajian data secara real-time atau mendekati real-time, serta fokus pada status operasional terkini dan pemberian notifikasi (alerts)?",
+        "pilihan": {
+          "A": "Strategic Dashboard",
+          "B": "Analytical Dashboard",
+          "C": "Operational Dashboard",
+          "D": "Informational Dashboard"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Operational Dashboard dirancang khusus untuk mendukung pemantauan aktivitas harian secara real-time. Karakteristik utamanya mencakup fokus pada status terkini dan penggunaan peringatan (alerts) serta notifikasi untuk membantu pengguna merespons kejadian dengan cepat."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Gusti Ngurah Asoka Darma Putra",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Manakah dari pilihan berikut yang bukan merupakan trend dari modern BI?",
+        "pilihan": {
+          "A": "Real-time analytics",
+          "B": "Cloud BI",
+          "C": "Data Literation",
+          "D": "Natural language query"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Cloud BI, analitik real-time, literasi data, dan pencarian berbasis bahasa alami umumnya bagian dari evolusi BI. Namun berdasarkan dokumen ini kunci jawaban bernilai B."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Pada BSC (Balance Scorecard) perspectives manakah yang digunakan untuk mengukur loyalitas dari pelanggan?",
+        "pilihan": {
+          "A": "Internal Business Process Perspective",
+          "B": "Financial Perspective",
+          "C": "Learning and Growth Perspective",
+          "D": "Customer Perspective"
+        },
+        "jawaban_benar": "D",
+        "penjelasan": "Perspektif pelanggan digunakan secara khusus untuk mengevaluasi matriks keberhasilan hubungan konsumen termasuk loyalitas, retensi, dan kepuasan pasar."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Pada tahapan EDA (Exploratory Data Analysis) diagram manakah yang digunakan untuk melihat distribusi dari dataset?",
+        "pilihan": {
+          "A": "Boxplot",
+          "B": "Line chart",
+          "C": "Histogram",
+          "D": "Bar chart"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Histogram merupakan grafik frekuensi batangan yang paling umum digunakan untuk memvisualisasikan bentuk kontur, sebaran, kemiringan, dan pola distribusi dari suatu dataset kuantitatif."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Model pembelajaran apa yang biasanya digunakan untuk pengenalan gambar dan NLP (Natural Language Processing)?",
+        "pilihan": {
+          "A": "Ensemble Learning",
+          "B": "Federated Learning",
+          "C": "Supervised Learning",
+          "D": "Transfer Learning"
+        },
+        "jawaban_benar": "D",
+        "penjelasan": "Transfer Learning sering diaplikasikan pada pemrosesan citra (Computer Vision) dan NLP dengan memanfaatkan arsitektur model besar yang sudah matang (pre-trained) lalu menyesuaikannya ke studi kasus baru."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Dashbord yang digunakan untuk membantu dalam pengambilan suatu keputusan strategi jangka panjang adalah?",
+        "pilihan": {
+          "A": "Strategic Dashboard",
+          "B": "Operational Dashboard",
+          "C": "Analytical Dashboard",
+          "D": "Informational Dashboard"
+        },
+        "jawaban_benar": "A",
+        "penjelasan": "Strategic dashboard dirancang untuk memantau indikator kinerja tingkat tinggi dan membantu eksekutif memetakan arah kebijakan strategis organisasi jangka panjang."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Natasya Lubis",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Seorang analis langsung membuat dashboard dari data mentah. Setelah diperiksa, ternyata banyak data pelanggan yang duplikat dan beberapa kolom kosong sehingga hasil analisis menjadi salah. Kesalahan utama analis tersebut adalah ....",
+        "pilihan": {
+          "A": "Tidak menggunakan dashboard interaktif",
+          "B": "Tidak melakukan Data Preparation terlebih dahulu",
+          "C": "Tidak menggunakan Machine Learning",
+          "D": "Tidak membuat KPI"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Data mentah sering tidak lengkap dan tidak konsisten. Jika langsung dianalisis, hasilnya bisa menyesatkan. Karena itu Data Preparation dilakukan sebelum EDA dan visualisasi."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Sebuah dashboard menampilkan 30 grafik berbeda dalam satu halaman. Pengguna mengeluh karena kesulitan menemukan informasi yang penting. Prinsip dashboard yang paling mungkin dilanggar adalah...",
+        "pilihan": {
+          "A": "Cognitive Load Reduction",
+          "B": "Data Integration",
+          "C": "ETL Process",
+          "D": "Transfer Learning"
+        },
+        "jawaban_benar": "A",
+        "penjelasan": "Terlalu banyak grafik membuat pengguna kewalahan. Dashboard yang baik harus mengurangi beban kognitif (cognitive load) agar informasi mudah dipahami."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Tahap BI Pipeline yang bertujuan memahami data dan mencari pola disebut ...",
+        "pilihan": {
+          "A": "Data Collection",
+          "B": "EDA",
+          "C": "Dashboarding",
+          "D": "Decision Making"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "EDA (Exploratory Data Analysis) digunakan untuk memahami struktur data, menemukan pola, missing value, dan outlier."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Machine Learning yang menggunakan data berlabel disebut ...",
+        "pilihan": {
+          "A": "Unsupervised Learning",
+          "B": "Federated Learning",
+          "C": "Supervised Learning",
+          "D": "Transfer Learning"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Supervised Learning menggunakan data yang sudah memiliki label (input dan output) untuk proses pelatihan model."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Seorang analis menemukan bahwa umur pelanggan pada dataset berkisar antara 18–60 tahun, tetapi ada satu data umur 250 tahun. Tujuan EDA pada kasus tersebut adalah ...",
+        "pilihan": {
+          "A": "Menambah jumlah data",
+          "B": "Menghapus seluruh data pelanggan",
+          "C": "Mendeteksi data outlier",
+          "D": "Membuat dashboard"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Umur 250 tahun merupakan nilai ekstrem yang tidak masuk akal sehingga termasuk outlier yang perlu diperiksa."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Komang Andrean Pramudia",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Dalam BI Architecture, proses Extract, Transform, Load (ETL) termasuk ke dalam tahapan...",
+        "pilihan": {
+          "A": "Data Collection",
+          "B": "Data Integration",
+          "C": "Data Storage",
+          "D": "Data Processing"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Proses ETL bertugas untuk mengintegrasikan data dari berbagai divisi atau sistem sumber yang berbeda ke dalam satu kesatuan data sebelum disimpan di Data Warehouse."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Salah satu karakteristik Data Warehouse adalah 'Non-Volatile', yang berarti...",
+        "pilihan": {
+          "A": "Data diperbarui secara real-time setiap saat",
+          "B": "Data hanya menyimpan informasi terkini saja",
+          "C": "Data tidak diperbarui langsung, melainkan di-refresh dari sumber dan data baru ditambahkan sebagai record baru",
+          "D": "Data dapat dihapus kapan saja oleh pengguna operasional"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Karakteristik Non-Volatile berarti data yang masuk ke dalam Data Warehouse bersifat permanen, tidak mengalami manipulasi ubah (update) atau hapus (delete) transaksional rutin seperti pada database operasional biasa."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Pada Exploratory Data Analysis (EDA), jenis visualisasi yang paling tepat digunakan untuk mendeteksi outlier dalam sebuah dataset adalah...",
+        "pilihan": {
+          "A": "Line Chart",
+          "B": "Bar Chart",
+          "C": "Histogram",
+          "D": "Boxplot"
+        },
+        "jawaban_benar": "D",
+        "penjelasan": "Boxplot secara grafis memetakan distribusi data melalui nilai lima serangkai (kuartil) dan memperlihatkan nilai ekstrem (outlier) sebagai titik-titik terisolasi di luar jangkauan pagar whisker."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Dalam paradigma Machine Learning, metode yang melatih model menggunakan data yang tersebar di banyak perangkat tanpa memindahkan data ke server pusat disebut...",
+        "pilihan": {
+          "A": "Transfer Learning",
+          "B": "Federated Learning",
+          "C": "Semi-Supervised Learning",
+          "D": "Ensemble Learning"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Federated Learning melatih algoritma model secara terdesentralisasi langsung pada perangkat lokal/cabang, sehingga data mentah yang bersifat sensitif tetap aman tersimpan secara lokal tanpa harus dikirim ke server terpusat."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Dalam konteks Business Intelligence, sebuah Dashboard berfungsi sebagai...",
+        "pilihan": {
+          "A": "Alat untuk melakukan proses ETL secara otomatis",
+          "B": "Database penyimpanan data historis perusahaan",
+          "C": "Tampilan komprehensif yang menampilkan Key Performance Indicators (KPI) organisasi",
+          "D": "Sistem pemrosesan transaksi harian perusahaan"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Dashboard berfungsi menyajikan visualisasi ringkas dan interaktif mengenai metrik performa utama (KPI) yang dibutuhkan oleh pihak pengambil keputusan strategis."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Nerila Permata Aly",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Perusahaan Tokobagus ingin mengukur performa bisnisnya dari 4 sisi sekaligus: keuangan, pelanggan, proses internal, dan pertumbuhan karyawan. Framework pengukuran apa yang paling tepat digunakan?",
+        "pilihan": {
+          "A": "KPI",
+          "B": "BSC",
+          "C": "ETL",
+          "D": "BPM"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Balanced Scorecard (BSC) adalah framework yang mengukur performa organisasi dari 4 perspektif: Financial, Customer, Internal Business Process, dan Learning & Growth. BSC membantu menyelaraskan strategi dengan tindakan operasional."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Seorang data analyst menemukan banyak missing values pada kolom \"pendapatan pelanggan\" yang distribusinya miring ke kanan (right-skewed). Metode pengisian missing values manakah yang paling tepat digunakan?",
+        "pilihan": {
+          "A": "Mengisi dengan mean (rata-rata)",
+          "B": "Mengisi dengan median (nilai tengah)",
+          "C": "Menghapus seluruh baris yang memiliki missing values",
+          "D": "Mengisi dengan nilai nol (0)"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Pada distribusi yang skewed (miring), median lebih tahan terhadap pengaruh nilai ekstrem dibandingkan mean, sehingga lebih representatif sebagai nilai pengganti. Menghapus baris dapat mengurangi jumlah data secara signifikan, sedangkan mengisi dengan nol akan mendistorsi distribusi data."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Startup Klarin sedang melatih model AI untuk memprediksi apakah email masuk adalah spam atau bukan. Mereka menggunakan ribuan email yang sudah ditandai \"spam\" atau \"bukan spam\" sebagai data latih. Paradigma ML apa yang digunakan?",
+        "pilihan": {
+          "A": "Unsupervised Learning",
+          "B": "Reinforcement Learning",
+          "C": "Supervised Learning",
+          "D": "Federated Learning"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Supervised Learning menggunakan data yang sudah berlabel (spam / bukan spam) untuk melatih model klasifikasi. Ini adalah contoh klasik dari Supervised Learning — bahkan disebutkan langsung di materi sebagai contoh: \"Email spam detection\"."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Manakah pernyataan yang paling tepat menggambarkan perbedaan antara EDA (Exploratory Data Analysis) dan Data Preparation dalam pipeline BI?",
+        "pilihan": {
+          "A": "EDA dan Data Preparation adalah proses yang sama karena keduanya bertujuan menghasilkan dataset bersih.",
+          "B": "EDA bertujuan memahami dan mengeksplorasi data untuk menemukan masalah, sedangkan Data Preparation bertujuan memperbaiki masalah tersebut agar data siap dianalisis.",
+          "C": "Data Preparation dilakukan sebelum EDA karena data harus bersih terlebih dahulu sebelum bisa dieksplorasi.",
+          "D": "EDA hanya menggunakan statistik deskriptif, sedangkan Data Preparation hanya melibatkan penghapusan data duplikat."
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "EDA berfokus pada eksplorasi dan pemahaman data — outputnya adalah insight (pola, anomali, masalah yang ditemukan). Data Preparation berfokus pada transformasi dan pembersihan — outputnya adalah dataset bersih yang siap dianalisis. Keduanya bersifat iteratif dan saling melengkapi: EDA menemukan masalah, Preparation memperbaikinya."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Apa fungsi utama dari boxplot dalam tahapan Exploratory Data Analysis (EDA)?",
+        "pilihan": {
+          "A": "Menunjukkan tren perubahan data terhadap waktu",
+          "B": "Membandingkan nilai antar kategori secara langsung",
+          "C": "Menampilkan distribusi frekuensi data dalam bentuk batang",
+          "D": "Menampilkan median, kuartil, dan mendeteksi keberadaan outlier"
+        },
+        "jawaban_benar": "D",
+        "penjelasan": "Boxplot digunakan untuk menampilkan ringkasan distribusi data melalui median, kuartil pertama (Q1), kuartil ketiga (Q3), serta mendeteksi outlier yang berada di luar whisker. Opsi A mengacu pada line chart, B pada bar chart, dan C pada histogram."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Gede Victor Danadyaksa Udayana",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Sebuah perusahaan ritel ingin menganalisis tren penjualan selama lima tahun terakhir untuk mendukung strategi bisnis di masa depan. Teknologi Business Intelligence yang paling tepat digunakan adalah ...",
+        "pilihan": {
+          "A": "Transaction Processing System (TPS)",
+          "B": "Data Warehouse",
+          "C": "Sistem Operasi",
+          "D": "Database Transaksional (OLTP)"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Data Warehouse dirancang khusus sebagai penyimpanan data historis berskala besar dan terintegrasi dari berbagai periode guna mendukung pengolahan analitis jangka panjang."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Mengapa perusahaan umumnya memindahkan data dari sistem OLTP ke Data Warehouse sebelum melakukan analisis Business Intelligence?",
+        "pilihan": {
+          "A": "Agar ukuran data menjadi lebih kecil",
+          "B": "Because OLTP tidak dapat menyimpan data",
+          "C": "Agar proses analisis tidak mengganggu kinerja transaksi operasional",
+          "D": "Karena Data Warehouse memiliki biaya lebih murah"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Query analitis BI sangat berat dan kompleks. Memisahkannya dari database OLTP operasional ke Data Warehouse mencegah terjadinya bottleneck yang dapat mengganggu kelancaran transaksi harian perusahaan."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Proses ETL dalam Business Intelligence terdiri dari ...",
+        "pilihan": {
+          "A": "Evaluate, Transform, Load",
+          "B": "Extract, Transfer, Link",
+          "C": "Extract, Transform, Load",
+          "D": "Execute, Transfer, Load"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "ETL merupakan kepanjangan dari Extract (ekstraksi data sumber), Transform (pembersihan, penyesuaian nilai, reformating), dan Load (pemuatan data ke dalam Data Warehouse)."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Teknik yang digunakan untuk menemukan pola atau pengetahuan tersembunyi dari kumpulan data yang besar disebut ...",
+        "pilihan": {
+          "A": "Data Mining",
+          "B": "Data Entry",
+          "C": "Data Backup",
+          "D": "Data Recovery"
+        },
+        "jawaban_benar": "A",
+        "penjelasan": "Data Mining merupakan disiplin mengekstrak pola, korelasi, tren, atau pengetahuan yang berharga dari kumpulan dataset besar menggunakan algoritma matematika/AI."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Dashboard dalam Business Intelligence berfungsi untuk ...",
+        "pilihan": {
+          "A": "Menyimpan data transaksi perusahaan",
+          "B": "Menampilkan informasi dan indikator kinerja secara visual",
+          "C": "Menghapus data yang tidak digunakan",
+          "D": "Menghubungkan jaringan komputer perusahaan"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Fungsi utama dashboard BI adalah bertindak sebagai layer visualisasi interaktif guna merangkum indikator performa kerja organisasi agar mudah dipahami secara instan oleh pengguna."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Ni Ketut Rema Yoni Antari",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Apa tujuan utama perspektif Learning and Growth dalam Balanced Scorecard (BSC)?",
+        "pilihan": {
+          "A": "Menilai efektivitas proses operasional dan produksi perusahaan.",
+          "B": "Mengukur kepuasan dan loyalitas pelanggan.",
+          "C": "Meningkatkan kemampuan organisasi melalui pengembangan SDM, teknologi, dan budaya kerja .",
+          "D": "Mengevaluasi keuntungan dan kinerja keuangan perusahaan."
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Perspektif Learning and Growth berfokus pada bagaimana organisasi dapat terus berkembang dan berinovasi. Hal ini dilakukan dengan meningkatkan kompetensi karyawan, memanfaatkan teknologi informasi secara optimal, serta membangun budaya organisasi yang mendukung pembelajaran dan perubahan."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Karakteristik apa yang paling membedakan Data Warehouse dari sistem basis data operasional (OLTP)?",
+        "pilihan": {
+          "A": "Data diorganisasikan berdasarkan fungsi atau operasi bisnis harian seperti pemrosesan pesanan.",
+          "B": "Data bersifat \"Time-variant\", yang berarti mampu menyimpan data historis dalam durasi panjang.",
+          "C": "Data diperbarui secara terus-menerus dan real-time setiap kali ada transaksi harian baru.",
+          "D": "Sistem ini secara khusus dirancang untuk melayani ribuan pengguna operasional setiap harinya."
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Data Warehouse dirancang dengan karakteristik \"Time-variant\", artinya sistem ini mampu menyimpan data historis dengan durasi yang panjang (misalnya 5-10 tahun). Berbeda dengan OLTP yang menangani nilai data saat ini (current data) dan mendukung pembuat keputusan operasional harian, Data Warehouse cenderung menangani data historis untuk mendukung pengambilan keputusan strategis."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Saat melakukan analisis data, Anda menemukan bahwa distribusi data pada boxplot terlihat miring (skewed). Setelah itu, Anda memutuskan untuk melakukan normalisasi agar distribusi data menjadi lebih baik dan siap digunakan untuk analisis lebih lanjut. Secara berurutan, aktivitas \"mengamati distribusi data\" and \"melakukan normalisasi\" termasuk ke dalam tahapan?",
+        "pilihan": {
+          "A": "Data Cleaning lalu Data Reduction",
+          "B": "Exploratory Data Analysis (EDA) lalu Data Preparation",
+          "C": "Data Preparation lalu Exploratory Data Analysis (EDA)",
+          "D": "Data Integration lalu Modeling"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "EDA berfungsi untuk memahami data dan menemukan masalah melalui visualisasi seperti boxplot. Setelah wawasan/insight didapat (menemukan anomali/masalah distribusi), tahap selanjutnya adalah Data Preparation (secara spesifik Data Transformation) untuk memperbaiki atau menormalkan data tersebut."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Tim AI ingin mengembangkan model klasifikasi gambar penyakit langka. Dataset yang tersedia sangat terbatas, tetapi terdapat model ResNet yang telah dilatih menggunakan jutaan gambar. Pendekatan yang paling tepat adalah …",
+        "pilihan": {
+          "A": "Unsupervised Learning.",
+          "B": "Transfer Learning.",
+          "C": "Federated Learning.",
+          "D": "Reinforcement Learning."
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Transfer Learning sangat cocok digunakan pada kondisi ini karena memanfaatkan model yang sudah dilatih sebelumnya dengan data dalam jumlah sangat besar, seperti model ResNet yang telah mempelajari jutaan gambar. Alih-alih melatih model dari awal, kita hanya perlu menyesuaikan atau melakukan fine-tuning pada model tersebut agar dapat mengenali penyakit langka yang menjadi target penelitian. Keunggulan utama pendekatan ini adalah mampu menghasilkan performa yang baik meskipun jumlah data baru yang tersedia terbatas, sehingga lebih efisien dari segi waktu, komputasi, dan kebutuhan data."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Mengapa diagram batang (bar chart) lebih direkomendasikan dibandingkan diagram lingkaran (pie chart) ketika memvisualisasikan perbandingan data dengan banyak kategori?",
+        "pilihan": {
+          "A": "Diagram batang secara otomatis akan menyembunyikan dekorasi yang mengganggu konsentrasi.",
+          "B": "Otak manusia mengevaluasi tingkat akurasi visual melalui \"panjang\" jauh lebih baik dibandingkan menggunakan \"sudut\".",
+          "C": "Diagram batang dapat mengakomodasi beban kognitif ekstra tanpa membebani memori kerja pengguna.",
+          "D": "Diagram lingkaran hanya diizinkan untuk menunjukkan perbandingan data berupa rentang waktu historis."
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Berdasarkan Teori Perseptual (Hierarki Pengkodean Visual), manusia membaca tingkat akurasi visual secara berbeda-beda. Akurasi untuk mengenali \"Panjang\" (seperti pada bar chart) lebih tinggi dibandingkan mengenali \"Sudut\" (seperti pada pie chart). Oleh karena itu, pie chart sebaiknya dihindari jika memiliki terlalu banyak kategori karena sangat sulit dibandingkan oleh mata manusia."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Maria Karisma Pada Wangge",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Sebuah perusahaan ingin meningkatkan kualitas fitur prediksi kata pada aplikasi keyboard smartphone. Namun, perusahaan tidak ingin mengumpulkan data ketikan pengguna ke server pusat demi menjaga privasi pengguna. Paradigma pembelajaran apa yang paling sesuai digunakan?",
+        "pilihan": {
+          "A": "Transfer Learning",
+          "B": "Federated Learning",
+          "C": "Ensemble Learning",
+          "D": "Reinforcement Learning"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Federated Learning memungkinkan model dilatih pada banyak perangkat yang terdesentralisasi, sementara data tetap berada di perangkat pengguna sehingga lebih menjaga privasi."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Direktur sebuah perusahaan ingin memantau pencapaian target bisnis tahunan melalui KPI tingkat tinggi dan tren kinerja yang diperbarui setiap bulan. Jenis dashboard yang paling sesuai adalah:",
+        "pilihan": {
+          "A": "Operational Dashboard",
+          "B": "Informational Dashboard",
+          "C": "Strategic Dashboard",
+          "D": "Analytical Dashboard"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Strategic Dashboard digunakan untuk mendukung keputusan strategis jangka panjang dengan fokus pada KPI tingkat tinggi, tren, dan tujuan organisasi."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Seorang analis harus memilih visualisasi yang paling akurat untuk membandingkan performa penjualan antar cabang. Berdasarkan Visual Encoding Hierarchy, metode visual mana yang paling mudah diinterpretasikan secara akurat oleh manusia?",
+        "pilihan": {
+          "A": "Intensitas warna",
+          "B": "Luas area",
+          "C": "Sudut (angle)",
+          "D": "Posisi (position)"
+        },
+        "jawaban_benar": "D",
+        "penjelasan": "Visual Encoding Hierarchy menyatakan bahwa posisi (position) merupakan bentuk encoding yang paling akurat untuk dipersepsikan manusia, diikuti oleh length, angle, area, dan color intensity."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Sebuah model bahasa dilatih dengan cara menyembunyikan beberapa kata dalam kalimat, kemudian model diminta menebak kata yang hilang menggunakan konteks di sekitarnya. Paradigma pembelajaran yang digunakan adalah:",
+        "pilihan": {
+          "A": "Semi-Supervised Learning",
+          "B": "Reinforcement Learning",
+          "C": "Self-Supervised Learning",
+          "D": "Supervised Learning"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Self-Supervised Learning menghasilkan label dari data itu sendiri. Salah satu contohnya adalah masked language modeling yang digunakan pada model seperti BERT."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Seorang pengguna dashboard ingin melihat detail penjualan suatu provinsi setelah sebelumnya hanya melihat total penjualan nasional. Fitur interaktif apakah yang sedang digunakan?",
+        "pilihan": {
+          "A": "Highlighting",
+          "B": "Filtering",
+          "C": "Drill-down",
+          "D": "Parameter Control"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Drill-down memungkinkan pengguna berpindah dari data yang bersifat agregat ke data yang lebih rinci atau detail."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Bunga Putri Situmeang",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Sebuah perusahaan memiliki data pelanggan yang banyak kosong, format tanggal berbeda-beda, dan terdapat data duplikat. Langkah yang paling tepat dilakukan sebelum analisis adalah…",
+        "pilihan": {
+          "A": "Melakukan data preparation untuk membersihkan dan menyeragamkan data",
+          "B": "Langsung membuat dashboard agar pola cepat terlihat",
+          "C": "Melakukan visualisasi terlebih dahulu untuk mencari insight utama",
+          "D": "Menghapus seluruh data yang tidak lengkap tanpa pengecekan"
+        },
+        "jawaban_benar": "A",
+        "penjelasan": "Data Preparation berfokus pada pembersihan dan transformasi data agar siap dianalisis. Proses ini mencakup mengatasi missing values, inkonsistensi, dan duplikasi data."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Menurut Anda, dampak paling berbahaya dari data yang buruk dalam bisnis adalah…",
+        "pilihan": {
+          "A": "Dashboard menjadi kurang menarik dilihat",
+          "B": "Analisis membutuhkan waktu lebih lama",
+          "C": "Jumlah visualisasi menjadi lebih sedikit",
+          "D": "Insight yang dihasilkan dapat menyesatkan pengambilan keputusan"
+        },
+        "jawaban_benar": "D",
+        "penjelasan": "Materi menekankan prinsip “Garbage In, Garbage Out”, yaitu kualitas keputusan dan insight sangat bergantung pada kualitas data yang digunakan."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Sebuah sistem AI digunakan untuk mendeteksi email spam berdasarkan contoh email yang sudah diberi label “spam” dan “bukan spam”. Pendekatan yang paling sesuai adalah…",
+        "pilihan": {
+          "A": "Unsupervised Learning karena mencari pola otomatis",
+          "B": "Reinforcement Learning karena menggunakan reward",
+          "C": "Supervised Learning karena menggunakan data berlabel",
+          "D": "Ensemble Learning karena menggabungkan beberapa dataset"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Supervised Learning menggunakan data berlabel (input-output pairs) untuk melakukan klasifikasi atau prediksi, contohnya deteksi spam email."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Menurut pendapat Anda, alasan utama Transfer Learning menjadi populer dalam pengembangan AI modern adalah…",
+        "pilihan": {
+          "A": "Tidak membutuhkan data sama sekali",
+          "B": "Menghasilkan akurasi tertinggi",
+          "C": "Mengurangi kebutuhan waktu dan biaya pelatihan model",
+          "D": "Dapat menggantikan banyak pradigma AI lainnya"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Transfer Learning memanfaatkan model yang sudah dilatih sebelumnya sehingga lebih efisien dalam penggunaan data dan biaya komputasi."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Dalam visualisasi data, bar chart sering dianggap lebih efektif dibanding pie chart karena…",
+        "pilihan": {
+          "A": "Pie chart hanya cocok untuk data kecil",
+          "B": "Perbandingan panjang lebih mudah dipahami dibanding sudut",
+          "C": "Pie chart tidak dapat digunakan dalam dashboard interaktif",
+          "D": "Bar chart membutuhkan lebih sedikit data"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Pada visual encoding hierarchy dijelaskan bahwa manusia lebih akurat membaca posisi dan panjang dibanding sudut atau area."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "I Gusti Made Abdhi Permana Putra",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Bentuk kecerdasan dalam Business Intelligence (BI) yang bertujuan untuk menjawab pertanyaan mengenai \"Apa yang sebaiknya dilakukan?\" adalah...",
+        "pilihan": {
+          "A": "Descriptive",
+          "B": "Diagnostic",
+          "C": "Predictive",
+          "D": "Prescriptive"
+        },
+        "jawaban_benar": "D",
+        "penjelasan": "Prescriptive Intelligence menjawab pertanyaan \"Apa yang sebaiknya dilakukan?\" dengan memberikan rekomendasi tindakan nyata untuk mengoptimalkan hasil bisnis."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Dalam paradigma Machine Learning, jenis pembelajaran yang menggunakan data berlabel (pasangan input-output) untuk melakukan tugas seperti klasifikasi dan regresi disebut?",
+        "pilihan": {
+          "A": "Unsupervised Learning",
+          "B": "Supervised Learning",
+          "C": "Reinforcement Learning",
+          "D": "Federated Learning"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Supervised Learning merupakan pembelajaran mesin yang menggunakan data berlabel (pasangan input-output) untuk melakukan tugas klasifikasi dan regresi."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Manakah dari poin-poin berikut yang merupakan salah satu karakteristik utama dari Data Warehouse?",
+        "pilihan": {
+          "A": "Berorientasi pada transaksi harian",
+          "B": "Data bersifat Volatile (mudah berubah)",
+          "C": "Time-variant (memiliki rentang data historis yang panjang)",
+          "D": "Menyimpan data hanya dari satu sumber platform"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Time-variant memiliki karakteristik penyimpanan data historis jangka panjang (5-10 tahun) yang memungkinkan analisis tren dari waktu ke waktu."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Jenis dashboard yang dirancang untuk mendukung keputusan strategis jangka panjang di tingkat eksekutif dengan fokus pada tren dan tujuan umum disebut?",
+        "pilihan": {
+          "A": "Strategic Dashboard",
+          "B": "Operational Dashboard",
+          "C": "Analytical Dashboard",
+          "D": "Informational Dashboard"
+        },
+        "jawaban_benar": "A",
+        "penjelasan": "Strategic Dashboard untuk tingkat eksekutif yang menyajikan KPI tingkat tinggi guna mendukung keputusan strategis jangka panjang."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Dalam metodologi Balanced Scorecard (BSC), perspektif yang menilai kapasitas organisasi untuk berkembang dan berinovasi melalui pengembangan sumber daya manusia dan teknologi adalah...",
+        "pilihan": {
+          "A": "Financial Perspective",
+          "B": "Customer Perspective",
+          "C": "Internal Business Process Perspective",
+          "D": "Learning and Growth Perspective"
+        },
+        "jawaban_benar": "D",
+        "penjelasan": "Learning and Growth Perspective dalam BSC fokus pada kapasitas organisasi untuk berkembang melalui pengembangan SDM, teknologi, dan inovasi."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Ben Abednego",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Komponen inti dalam BI (BI Core Component) yang bertugas untuk mengambil, membersihkan, dan mengintegrasikan data disebut...",
+        "pilihan": {
+          "A": "Data Warehouse",
+          "B": "OLAP Engine",
+          "C": "ETL (Extract, Transform, Load)",
+          "D": "Visualization Layer"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Proses ETL adalah pondasi yang bertugas mengambil data dari berbagai sistem operasional, mengubah/membersihkan formatnya, dan mengunggahnya ke repositori sentral."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Data Warehouse memiliki karakteristik di mana data difokuskan pada subjek utama proses bisnis, bukan sekadar untuk mencatat proses transaksi harian. Karakteristik ini dinamakan...",
+        "pilihan": {
+          "A": "Time-variant",
+          "B": "Nonvolatile",
+          "C": "Integrated",
+          "D": "Subject Oriented"
+        },
+        "jawaban_benar": "D",
+        "penjelasan": "Subject Oriented mengacu pada pemodelan data warehouse yang terpusat mengelompokkan data berdasarkan entitas subjek bisnis bernilai tinggi seperti pelanggan, produk, atau penjualan."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Jika sebuah AI berinteraksi dengan sebuah lingkungan dan belajar mengambil keputusan melalui sistem penghargaan (reward) dan hukuman (punishment), AI tersebut menggunakan paradigma...",
+        "pilihan": {
+          "A": "Transfer Learning",
+          "B": "Reinforcement Learning",
+          "C": "Self-Supervised Learning",
+          "D": "Ensemble Learning"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Reinforcement Learning melatih agen kecerdasan untuk mengadopsi tindakan optimal di dalam suatu lingkungan dinamis lewat umpan balik yang konsisten berupa reward dan penalti."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Evaluasi yang bertujuan untuk melihat seberapa efektif suatu organisasi dalam menghasilkan produk atau layanan yang berkualitas diukur melalui salah satu perspektif Balanced Scorecard (BSC) yang disebut...",
+        "pilihan": {
+          "A": "Financial Perspective",
+          "B": "Customer Perspective",
+          "C": "Internal Business Process Perspective",
+          "D": "Learning and Growth Perspective"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Internal Business Process Perspective mengukur metrik efisiensi kualitas manufaktur, manajemen operasi, dan kelancaran alur rantai pasok internal organisasi."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Jenis dashboard yang mendukung pengujian hipotesis dan eksplorasi data secara taktis (dilengkapi berbagai filter dan fitur drill-down) digolongkan sebagai...",
+        "pilihan": {
+          "A": "Strategic Dashboard",
+          "B": "Analytical Dashboard",
+          "C": "Operational Dashboard",
+          "D": "Informational Dashboard"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Analytical Dashboard menyediakan visualisasi yang mendalam dan kontrol interaktif (slicing/drill) yang berguna bagi analis untuk mengeksplorasi data historis guna mendeteksi tren taktis."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Ni Komang Riana Lestari",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Perusahaan logistik memiliki data transaksi pengiriman real-time di OLTP, dan tim analis ingin menganalisis tren pengiriman 7 tahun terakhir tanpa mengganggu operasional harian. Data berasal dari 5 sistem berbeda (CRM, ERP, GPS, keuangan, SDM). Komponen arsitektur BI manakah yang paling kritis untuk diimplementasikan pertama kali?",
+        "pilihan": {
+          "A": "Dashboard dan visualisasi, karena eksekutif butuh insight segera",
+          "B": "OLAP Engine, karena analisis multidimensi adalah inti dari BI",
+          "C": "ETL pipeline menuju Data Warehouse, karena integrasi dan pemisahan data dari OLTP adalah fondasi utama",
+          "D": "Data Mining tools, karena pola dalam 7 tahun data hanya bisa ditemukan dengan Mining"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "ETL menuju Data Warehouse adalah fondasi yang harus dibangun lebih dulu. Tanpa ETL, data dari 5 sistem berbeda tidak terintegrasi dan tidak konsisten. Tanpa Data Warehouse, analisis historis akan membebani sistem OLTP dan mengganggu transaksi operasional."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Perusahaan e-commerce mencapai target revenue growth 40% (perspektif finansial), namun di saat yang sama customer retention rate turun drastis, karyawan bagian layanan pelanggan mengundurkan diri massal, dan jumlah keluhan meningkat 200%. Dari perspektif Balanced Scorecard, apa yang sesungguhnya terjadi dan apa risiko terbesarnya?",
+        "pilihan": {
+          "A": "Perusahaan berhasil karena KPI finansial tercapai; masalah lain bersifat operasional dan tidak mempengaruhi strategi jangka panjang",
+          "B": "Perusahaan gagal secara strategis karena perspektif customer, internal process, dan learning & growth memburuk, yang akan menghancurkan perspektif finansial di masa depan",
+          "C": "Perusahaan harus segera mengganti sistem BSC-nya karena terbukti tidak efektif mengukur performa",
+          "D": "Perusahaan perlu menambah lebih banyak KPI finansial agar analisis menjadi lebih akurat dan komprehensif"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "BSC dirancang justru untuk mencegah ilusi keberhasilan finansial jangka pendek yang menyembunyikan kehancuran jangka panjang. Dalam kerangka BSC, keempat perspektif saling kausal: Learning & Growth (karyawan kompeten) 🡪 Internal Process (layanan efisien) 🡪 Customer (pelanggan puas & loyal) 🡪 Financial (revenue berkelanjutan). Ketika tiga perspektif bawah memburuk, revenue jangka panjang pasti ikut ambruk."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Seorang analis membangun model prediksi churn dan mendapat akurasi 98%. Namun saat ditelusuri, dari 10.000 pelanggan, hanya 200 yang benar-benar churn. Model tersebut ternyata memprediksi \"tidak churn\" untuk semua pelanggan. Tahap EDA mana yang seharusnya mendeteksi masalah ini sejak awal, sebelum modeling dilakukan?",
+        "pilihan": {
+          "A": "Analis korelasi antar variabel untuk menemukan fitur yang paling mempengaruhi churn",
+          "B": "Analisis distribusi kelas target (class distribution) untuk mendeteksi ketidakseimbangan data yang ekstrem",
+          "C": "Pembuatan boxplot untuk mendeteksi outlier pada variabel numerik",
+          "D": "Normalisasi data agar semua variabel berada dalam skala yang sama"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Masalah yang terjadi adalah class imbalance hanya 2% pelanggan yang churn (200 dari 10.000). Model yang memprediksi \"tidak churn\" untuk semua orang pun otomatis mendapat akurasi 98%, padahal tidak berguna sama sekali. EDA yang baik wajib memeriksa distribusi kelas target di awal pipeline."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Sebuah bank ingin membangun sistem deteksi penipuan (fraud detection). Data transaksi berlabel \"fraud/tidak\" sangat sedikit karena fraud jarang terjadi. Data nasabah sangat sensitif dan tidak boleh meninggalkan perangkat masing-masing cabang. Bank juga ingin memanfaatkan model deteksi anomali yang sudah dilatih di industri lain. Kombinasi paradigma manakah yang paling tepat?",
+        "pilihan": {
+          "A": "Supervised Learning saja, karena tersedia label fraud/tidak fraud",
+          "B": "Unsupervised Learning saja, karena data berlabel sangat terbatas",
+          "C": "Federated Learning, Transfer Learning, Semi-Supervised Learning, untuk mengatasi privasi data, keterbatasan label, dan memanfaatkan model yang sudah ada",
+          "D": "Reinforcement Learning, karena sistem perlu belajar dari reward saat berhasil mendeteksi fraud"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Federated Learning menjawab masalah privasi data tetap di cabang masing-masing. Transfer Learning menjawab kebutuhan memanfaatkan model yang sudah dilatih di domain serupa. Semi-Supervised Learning menjawab keterbatasan label memanfaatkan data tidak berlabel."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Seorang analis BI membuat dashboard eksekutif yang menampilkan 45 KPI sekaligus, menggunakan 8 jenis grafik berbeda, dengan warna yang sangat beragam, dan semua data ditampilkan hingga level transaksi individual. Para eksekutif mengeluh dashboard tersebut tidak membantu pengambilan keputusan. Apa masalah fundamental yang terjadi?",
+        "pilihan": {
+          "A": "Dashboard perlu ditambah lebih banyak data dan grafik agar eksekutif mendapat gambaran yang lebih lengkap",
+          "B": "Dashboard gagal memenuhi tujuan utamanya: menyampaikan informasi yang relevan secara cepat untuk mendukung keputusan strategis, bukan menampilkan semua data yang tersedia",
+          "C": "Masalahnya hanya pada pemilihan warna; jika warna diperbaiki, dashboard akan efektif",
+          "D": "Eksekutif perlu dilatih membaca data agar bisa memanfaatkan dashboard tersebut secara optimal"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Dashboard eksekutif bukan alat untuk menampilkan semua data melainkan alat komunikasi keputusan strategis. Masalah fundamentalnya adalah information overload: terlalu banyak KPI, terlalu banyak jenis grafik, dan granularitas data yang tidak sesuai dengan kebutuhan eksekutif."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Very Irawan Simbolon",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Apa pengertian utama Business Intelligence (BI)?",
+        "pilihan": {
+          "A": "Sistem untuk membuat desain website",
+          "B": "Sistem pendukung keputusan berbasis data",
+          "C": "Sistem untuk mengganti semua pekerjaan manusia",
+          "D": "Sistem penyimpanan file pribadi"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "BI digunakan untuk mengolah, menganalisis, dan mengakses data agar membantu proses pengambilan keputusan bisnis secara cerdas."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Dalam BI Architecture, proses ETL terdiri dari apa saja?",
+        "pilihan": {
+          "A": "Execute, Test, Launch",
+          "B": "Extract, Transform, Load",
+          "C": "Explore, Train, Learn",
+          "D": "Enter, Transfer, Link"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "ETL digunakan untuk mengambil data dari berbagai sumber (Extract), mengubah nilainya agar konsisten (Transform), lalu memasukkannya ke penyimpanan pusat seperti data warehouse (Load)."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Apa tujuan utama Exploratory Data Analysis atau EDA?",
+        "pilihan": {
+          "A": "Membuat aplikasi mobile",
+          "B": "Menghapus semua data lama",
+          "C": "Memahami data, pola, anomali, dan outlier",
+          "D": "Mengganti dashboard dengan laporan manual"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "EDA berfokus pada eksplorasi data untuk memahami struktur dasar, menemukan missing values, mengenali pola umum, serta mengisolasi outlier."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Balanced Scorecard dalam BPM digunakan untuk apa?",
+        "pilihan": {
+          "A": "Mengukur performa hanya dari sisi keuangan",
+          "B": "Menyelaraskan strategi and tindakan melalui beberapa perspektif",
+          "C": "Menghapus proses bisnis yang lama",
+          "D": "Membuat database transaksi harian"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Balanced Scorecard menyeimbangkan penilaian performa performansi kerja dari perspektif finansial, pelanggan, proses bisnis internal, serta pembelajaran & pertumbuhan."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Paradigma Machine Learning yang menggunakan data tanpa label adalah?",
+        "pilihan": {
+          "A": "Supervised Learning",
+          "B": "Unsupervised Learning",
+          "C": "Reinforcement Learning",
+          "D": "Federated Learning"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Unsupervised Learning memproses dataset mandiri tanpa pendampingan label target, umumnya digunakan untuk tugas segmentasi kelompok (clustering) atau kompresi dimensi (PCA)."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Ayu Ngurah Catur Aprillia Dewi",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Sebuah perusahaan ingin mengintegrasikan data penjualan dari berbagai cabang untuk dianalisis selama 10 tahun terakhir. Karakteristik Data Warehouse yang paling mendukung kebutuhan tersebut adalah...",
+        "pilihan": {
+          "A": "Time-variant dan integrated",
+          "B": "Volatile dan application-oriented",
+          "C": "Real-time transaction processing",
+          "D": "Network-based dan distributed"
+        },
+        "jawaban_benar": "A",
+        "penjelasan": "Pada kasus ini, data penjualan berasal dari berbagai cabang, sehingga karakteristik integrated sangat diperlukan agar data memiliki format dan struktur yang konsisten. Selain itu, perusahaan ingin menganalisis data selama 10 tahun terakhir, sehingga karakteristik time-variant memungkinkan analisis tren dari waktu ke waktu."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Dalam Balanced Scorecard, indikator \"persentase pelanggan yang melakukan pembelian ulang\" paling tepat termasuk ke dalam perspektif...",
+        "pilihan": {
+          "A": "Financial Perspective",
+          "B": "Internal Business Process Perspective",
+          "C": "Customer Perspective",
+          "D": "Learning and Growth Perspective"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Indikator persentase pelanggan yang melakukan pembelian ulang (repeat purchase rate) menunjukkan tingkat kepuasan, loyalitas, dan keberhasilan perusahaan dalam mempertahankan pelanggan. Oleh karena itu, indikator ini termasuk dalam Customer Perspective pada Balanced Scorecard, yang berfokus pada bagaimana perusahaan memberikan nilai kepada pelanggan dan menjaga hubungan jangka panjang dengan mereka."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Sebuah perusahaan logistik membutuhkan dashboard yang dapat menampilkan jumlah pengiriman yang terlambat secara real-time dan memberikan notifikasi ketika keterlambatan melebihi batas tertentu. Jenis dashboard yang paling sesuai adalah…",
+        "pilihan": {
+          "A": "Strategic Dashboard",
+          "B": "Operational Dashboard",
+          "C": "Informational Dashboard",
+          "D": "Analytical Dashboard"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Operational Dashboard digunakan untuk memantau aktivitas operasional secara real-time. Dashboard ini berfokus pada kondisi saat ini dan biasanya dilengkapi dengan alert atau notifikasi ketika terjadi masalah yang memerlukan tindakan segera."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Manakah pernyataan yang paling tepat mengenai perbedaan Data Warehouse dan Data Lake?",
+        "pilihan": {
+          "A": "Data Warehouse menyimpan data mentah sedangkan Data Lake menyimpan data yang telah terstruktur",
+          "B": "Data Warehouse hanya digunakan untuk data real-time sedangkan Data Lake hanya untuk data historis",
+          "C": "Data Warehouse dan Data Lake memiliki fungsi yang sama sehingga dapat digunakan secara bergantian",
+          "D": "Data Warehouse cocok untuk analisis terstruktur, sedangkan Data Lake dapat menyimpan data terstruktur maupun tidak terstruktur"
+        },
+        "jawaban_benar": "D",
+        "penjelasan": "Data Warehouse dirancang untuk menyimpan data yang telah dibersihkan, diintegrasikan, dan terstruktur sehingga siap digunakan untuk pelaporan, Business Intelligence, dan analisis bisnis. Sebaliknya, Data Lake dapat menyimpan data dalam berbagai format, baik terstruktur, semi-terstruktur, maupun tidak terstruktur, dalam bentuk aslinya (raw data)."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Sebuah tim data science menggabungkan hasil prediksi beberapa model machine learning untuk meningkatkan akurasi dan mengurangi risiko kesalahan model tunggal. Teknik tersebut dikenal sebagai...",
+        "pilihan": {
+          "A": "Transfer Learning",
+          "B": "Ensemble Learning",
+          "C": "Reinforcement Learning",
+          "D": "Clustering"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Ensemble Learning mengombinasikan beberapa model untuk menghasilkan prediksi yang lebih akurat dan stabil dibandingkan menggunakan satu model saja."
+      }
+    ]
+  },
+  {
+    "nama_mahasiswa": "Ketut Dhea Ananda Putri Sutarja",
+    "soal_list": [
+      {
+        "id": 1,
+        "pertanyaan": "Perusahaan ingin mengelompokkan pelanggan berdasarkan pola pembelian tanpa memiliki kategori sebelumnya. Paradigma yang paling tepat adalah...",
+        "pilihan": {
+          "A": "Self-Supervised Learning",
+          "B": "Unsupervised Learning",
+          "C": "Semi-Supervised Learning",
+          "D": "Transfer Learning"
+        },
+        "jawaban_benar": "B",
+        "penjelasan": "Unsupervised Learning adalah metode pembelajaran yang menggunakan data tanpa label untuk menemukan pola atau mengelompokkan data secara otomatis."
+      },
+      {
+        "id": 2,
+        "pertanyaan": "Sebuah dashboard menampilkan KPI utama pada bagian paling atas halaman. Prinsip Dashboard Design yang diterapkan adalah...",
+        "pilihan": {
+          "A": "Layout Structure",
+          "B": "Color Semantics",
+          "C": "Visual Hierarchy",
+          "D": "Cognitive Load Reduction"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Visual Hierarchy adalah prinsip desain yang mengatur penempatan informasi berdasarkan tingkat kepentingannya agar pengguna lebih mudah memahami dashboard."
+      },
+      {
+        "id": 3,
+        "pertanyaan": "Tahap Data Preparation yang bertujuan mengurangi jumlah atribut atau kolom yang tidak diperlukan adalah...",
+        "pilihan": {
+          "A": "Data Cleaning",
+          "B": "Data Integration",
+          "C": "Data Reduction",
+          "D": "Data Transformation"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Data Reduction adalah proses mengurangi jumlah data atau atribut yang tidak diperlukan agar analisis menjadi lebih efisien."
+      },
+      {
+        "id": 4,
+        "pertanyaan": "Jika seorang analis ingin mengetahui hubungan antara biaya iklan dan penjualan, aktivitas EDA yang paling tepat adalah...",
+        "pilihan": {
+          "A": "Data Cleaning",
+          "B": "Histogram",
+          "C": "Analisis Korelasi",
+          "D": "Data Integration"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Analisis Korelasi digunakan untuk mengetahui hubungan atau keterkaitan antara dua variabel atau lebih."
+      },
+      {
+        "id": 5,
+        "pertanyaan": "Dalam proses ETL, aktivitas mengambil data dari berbagai sumber disebut...",
+        "pilihan": {
+          "A": "Transform",
+          "B": "Load",
+          "C": "Extract",
+          "D": "Query"
+        },
+        "jawaban_benar": "C",
+        "penjelasan": "Extract adalah proses mengambil atau mengumpulkan data dari berbagai sumber sebelum data diproses lebih lanjut."
+      }
+    ]
+  }
+]
