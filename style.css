@@ -813,3 +813,113 @@ p.subtitle {
     text-transform: uppercase;
     letter-spacing: 0.05em;
 }
+
+/* ==========================================================================
+   MOBILE LAYOUT OPTIMIZATIONS (SCREENS < 600PX)
+   ========================================================================== */
+@media (max-width: 600px) {
+    .app-container {
+        padding: 16px 12px;
+    }
+    
+    .glass-card {
+        padding: 24px 16px;
+        border-radius: var(--border-radius-md);
+    }
+    
+    .welcome-header h1 {
+        font-size: 2.1rem;
+        margin-bottom: 8px;
+    }
+    
+    p.subtitle {
+        font-size: 0.95rem;
+    }
+    
+    .logo-container {
+        padding: 10px;
+        margin-bottom: 16px;
+    }
+    
+    .logo-icon {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .welcome-card h2 {
+        font-size: 1.15rem;
+        margin-bottom: 18px;
+        padding-bottom: 8px;
+    }
+    
+    .mode-selector {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+    
+    .mode-btn {
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    .btn {
+        padding: 12px 20px;
+        font-size: 0.9rem;
+    }
+    
+    /* Quiz Playing Screen */
+    .question-text {
+        font-size: 1.1rem;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    
+    .option-card {
+        padding: 12px 14px;
+        font-size: 0.88rem;
+        gap: 10px;
+    }
+    
+    .option-badge {
+        width: 24px;
+        height: 24px;
+        font-size: 0.75rem;
+    }
+    
+    .quiz-header {
+        margin-bottom: 16px;
+    }
+    
+    /* Result Screen */
+    .result-header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .score-radial {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .score-message h2 {
+        font-size: 1.15rem;
+    }
+    
+    .wrong-card {
+        padding: 16px;
+        gap: 12px;
+    }
+    
+    .wrong-card .question-title {
+        font-size: 0.95rem;
+    }
+    
+    .explanation-block {
+        padding: 12px;
+        font-size: 0.8rem;
+    }
+}
+
