@@ -124,6 +124,20 @@ p.subtitle {
     margin-bottom: 40px;
 }
 
+.logo-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.brand-logo {
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+    display: block;
+}
+
 .logo-container {
     display: inline-flex;
     padding: 14px;
@@ -830,6 +844,10 @@ p.subtitle {
     .welcome-header h1 {
         font-size: 2.1rem;
         margin-bottom: 8px;
+    }
+    
+    .brand-logo {
+        max-width: 280px;
     }
     
     p.subtitle {
